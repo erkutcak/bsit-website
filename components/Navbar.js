@@ -30,11 +30,21 @@ export default function Navbar () {
                     </button>
                     <div className={`origin-top-right absolute right-0 mt-2 w-56 rounded-md shadow-lg bg-white ring-1 ring-black ring-opacity-5 lg:relative lg:w-auto lg:bg-transparent lg:ring-0 lg:mt-0 lg:shadow-none ${isMainMenuDropdownOpen ? 'block' : 'hidden'} lg:flex`} id="navbar-user">
                         <div className="py-1 lg:flex lg:flex-row lg:space-x-4 lg:items-center" role="menu" aria-labelledby="options-menu">
-                            <Link href="/" className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-gray-900 lg:bg-transparent lg:text-white" role="menuitem">Home</Link>
-                            <Link href="/about" className={`${isActive === 'about' ? 'bg-gray-100 text-gray-900' : 'text-gray-700'} block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-gray-900 lg:bg-transparent lg:text-white`} role="menuitem">About</Link>
-                            <Link href="/recipes" className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-gray-900 lg:bg-transparent lg:text-white" role="menuitem">Recipes</Link>
-                            <Link href="/blog" className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-gray-900 lg:bg-transparent lg:text-white" role="menuitem">Blog</Link>
-                            <Link href="/myprofile" className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-gray-900 lg:bg-transparent lg:text-white" role="menuitem">My Profile</Link>
+                            <Link href="/" role="menuitem">
+                                <button className={`${isActive === 'home' ? 'bg-gray-100 text-gray-700' : 'text-white'} block px-4 py-2 text-sm hover:bg-gray-100 hover:text-gray-900 max-lg:text-gray-700`} onClick={() => toggleActive('home')}>Home</button>
+                            </Link>
+                            <Link href="/about" role="menuitem">
+                                <button className={`${isActive === 'about' ? 'bg-gray-100 text-gray-700' : 'text-white'} block px-4 py-2 text-sm hover:bg-gray-100 hover:text-gray-900 max-lg:text-gray-700`} onClick={() => toggleActive('about')}>About</button>
+                            </Link>
+                            <Link href="/recipes" role="menuitem">
+                                <button className={`${isActive === 'recipes' ? 'bg-gray-100 text-gray-700' : 'text-white'} block px-4 py-2 text-sm hover:bg-gray-100 hover:text-gray-900 max-lg:text-gray-700`} onClick={() => toggleActive('recipes')}>Recipes</button>
+                            </Link>
+                            <Link href="/blog" role="menuitem">
+                                <button className={`${isActive === 'blog' ? 'bg-gray-100 text-gray-700' : 'text-white'} block px-4 py-2 text-sm hover:bg-gray-100 hover:text-gray-900 max-lg:text-gray-700`} onClick={() => toggleActive('blog')}>Blog</button>
+                            </Link>
+                            <Link href="/myprofile" role="menuitem">
+                                <button className={`${isActive === 'myprofile' ? 'bg-gray-100 text-gray-700' : 'text-white'} block px-4 py-2 text-sm hover:bg-gray-100 hover:text-gray-900 max-lg:text-gray-700`} onClick={() => toggleActive('myprofile')}>My Profile</button>
+                            </Link>
                             <Link href="/" className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-gray-900 lg:bg-transparent lg:text-white" role="menuitem">Logout</Link>
                         </div>
                     </div>
