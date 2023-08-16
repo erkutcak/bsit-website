@@ -1,9 +1,11 @@
 'use client'
 
+import TopItalians from "@/components/TopItalians"
+
 export default function Home() {
   return (
     <div>
-      Home
+      <TopItalians />
     </div>
   )
 }
