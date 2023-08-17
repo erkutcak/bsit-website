@@ -97,8 +97,9 @@ const coffees = [
         name: '% Arabica',
         rating: '4.1',
         location: 'https://goo.gl/maps/DmqWHk32CTtoRWW97',
-        reservation: false,
-        booking: '',
+        delivery: false,
+        ubereats: '',
+        doordash: '',
         website: 'https://arabicacanada.coffee/'
     },
     {
@@ -106,8 +107,9 @@ const coffees = [
         name: 'Dark Horse Espresso Bar',
         rating: '4.1',
         location: 'https://goo.gl/maps/nq49qBp9Frur2Xez7',
-        reservation: false,
-        booking: '',
+        delivery: true,
+        ubereats: 'https://www.ubereats.com/ca/store/dark-horse-espresso-bar-spadina/58IQmiRPTEmMjfnyeYtAGw?diningMode=DELIVERY&ps=1&sc=SEARCH_SUGGESTION',
+        doordash: '',
         website: 'https://www.darkhorseespresso.com/'
     },
     {
@@ -115,8 +117,9 @@ const coffees = [
         name: 'Rooster Coffee House',
         rating: '4.5',
         location: 'https://goo.gl/maps/Nw6h3a11ukJ4roAS6',
-        reservation: false,
-        booking: '',
+        delivery: false,
+        ubereats: '',
+        doordash: '',
         website: 'http://roostercoffeehouse.com/'
     },
     {
@@ -124,8 +127,9 @@ const coffees = [
         name: 'Jimmy\'s Coffee',
         rating: '4.5',
         location: 'https://goo.gl/maps/S1rTfQ85Bm3U8RVB7',
-        reservation: false,
-        booking: '',
+        delivery: false,
+        ubereats: '',
+        doordash: '',
         website: 'http://www.jimmyscoffee.ca/'
     },
     {
@@ -133,8 +137,9 @@ const coffees = [
         name: 'Shy Coffee Co.',
         rating: '4.5',
         location: 'https://goo.gl/maps/nB61PMaWqCYdXKta8',
-        reservation: false,
-        booking: '',
+        delivery: false,
+        ubereats: '',
+        doordash: '',
         website: 'https://www.instagram.com/shycoffeeco'
     },
     {
@@ -142,8 +147,9 @@ const coffees = [
         name: 'Pilot Coffee Roasters',
         rating: '4.3',
         location: 'https://goo.gl/maps/nHH8zK2MiR6JudKPA',
-        reservation: false,
-        booking: '',
+        delivery: false,
+        ubereats: '',
+        doordash: '',
         website: 'https://www.pilotcoffeeroasters.com/'
     },
     {
@@ -151,8 +157,9 @@ const coffees = [
         name: 'NEO Coffee Bar',
         rating: '4.5',
         location: 'https://goo.gl/maps/wSRohc1RUwd6t1NS7',
-        reservation: false,
-        booking: '',
+        delivery: true,
+        ubereats: 'https://www.ubereats.com/ca/store/neo-coffee-bar-frederick-x-king/reokXb-zS0aYnA7dTqJ6ag?diningMode=DELIVERY&sc=SEARCH_SUGGESTION',
+        doordash: '',
         website: 'http://www.neocoffeebar.com/'
     },
     {
@@ -160,8 +167,9 @@ const coffees = [
         name: 'Found Coffee',
         rating: '4.8',
         location: 'https://goo.gl/maps/76BH5kybBHD7gxPu7',
-        reservation: false,
-        booking: '',
+        delivery: false,
+        ubereats: '',
+        doordash: '',
         website: 'https://www.found.coffee/'
     },
     {
@@ -169,8 +177,9 @@ const coffees = [
         name: 'Fahrenheit Coffee',
         rating: '4.8',
         location: 'https://goo.gl/maps/sDPv4YVMnuKJh55DA',
-        reservation: false,
-        booking: '',
+        delivery: true,
+        ubereats: '',
+        doordash: 'https://www.doordash.com/en-CA/store/fahrenheit-coffee-toronto-306075/?event_type=autocomplete&pickup=false',
         website: 'http://www.fahrenheitcoffee.com/'
     },
     {
@@ -178,8 +187,9 @@ const coffees = [
         name: 'Forget Me Not Coffee',
         rating: '4.5',
         location: 'https://goo.gl/maps/ez63DSQAgvZJ9LUu5',
-        reservation: false,
-        booking: '',
+        delivery: true,
+        ubereats: 'https://www.ubereats.com/ca/store/forget-me-not-cafe-adelaide/EvfD2wwUTGm2j6RtivXYTQ?diningMode=DELIVERY',
+        doordash: '',
         website: 'https://www.forgetmenotcoffee.ca/'
     }
 ]
@@ -190,8 +200,9 @@ const pizzas = [
         name: 'Pizzeria Badiali',
         rating: '4.7',
         location: 'https://goo.gl/maps/AYfA8wbwZpFLN9CdA',
-        reservation: false,
-        booking: '',
+        delivery: false,
+        ubereats: '',
+        doordash: '',
         website: 'https://pizzeriabadiali.com/'
     },
     {
@@ -199,8 +210,9 @@ const pizzas = [
         name: 'North of Brooklyn Pizzeria',
         rating: '4.5',
         location: 'https://goo.gl/maps/BcyFZ69YMkxw2hwt9',
-        reservation: false,
-        booking: '',
+        delivery: true,
+        ubereats: 'https://www.ubereats.com/ca/store/north-of-brooklyn-pizzeria-the-village/G0uT8txjSRu4DL2DPWnsng?diningMode=DELIVERY&sc=SEARCH_SUGGESTION',
+        doordash: 'https://www.doordash.com/en-CA/store/north-of-brooklyn-pizzeria-toronto-442764/?cursor=eyJzdG9yZV92ZXJ0aWNhbF9pZCI6bnVsbCwic2VhcmNoX2l0ZW1fY2Fyb3VzZWxfY3Vyc29yIjp7InF1ZXJ5Ijoibm9ydGggb2YgYnJvb2tseW4iLCJpdGVtX2lkcyI6W10sInNlYXJjaF90ZXJtIjoibm9ydGggYnJvb2tseW4iLCJ2ZXJ0aWNhbF9pZCI6LTk5OSwidmVydGljYWxfbmFtZSI6ImFsbCJ9LCJzdG9yZV9wcmltYXJ5X3ZlcnRpY2FsX2lkcyI6WzFdLCJpc19zaWJsaW5nIjpmYWxzZSwiZm9yY2Vfc3RvcmVfYXZhaWxhYmlsaXR5X3YyIjpmYWxzZSwiYnVuZGxlX2dsb2JhbF9zZWFyY2hfY29udGV4dCI6bnVsbH0=&pickup=false',
         website: 'https://www.northofbrooklyn.com/'
     },
     {
@@ -208,8 +220,9 @@ const pizzas = [
         name: 'Descendant Detroit Style Pizza',
         rating: '4.7',
         location: 'https://goo.gl/maps/qskLurwGat6NE2Mz7',
-        reservation: false,
-        booking: '',
+        delivery: true,
+        ubereats: 'https://www.ubereats.com/ca/store/descendant-detroit-style-pizza/bfKXcwJWTxufS__c5E_q8w?diningMode=DELIVERY&pl=JTdCJTIyYWRkcmVzcyUyMiUzQSUyMjEyMCUyMFBhcmxpYW1lbnQlMjBTdCUyMiUyQyUyMnJlZmVyZW5jZSUyMiUzQSUyMmYwNWFkMTkyLWM4MzktNDkyZi03NWE0LTI4NGIxZDNjMGMwNiUyMiUyQyUyMnJlZmVyZW5jZVR5cGUlMjIlM0ElMjJ1YmVyX3BsYWNlcyUyMiUyQyUyMmxhdGl0dWRlJTIyJTNBNDMuNjUzODgxNyUyQyUyMmxvbmdpdHVkZSUyMiUzQS03OS4zNjQwMDQ3JTdE&utm_campaign=place-action-link&utm_medium=organic&utm_source=google',
+        doordash: '',
         website: 'https://descendantdsp.com/'
     },
     {
@@ -217,8 +230,9 @@ const pizzas = [
         name: 'The Fourth Man in the Fire Pizzeria',
         rating: '4.5',
         location: 'https://goo.gl/maps/CZ3rcJPBZKCKXsWn9',
-        reservation: false,
-        booking: '',
+        delivery: true,
+        ubereats: 'https://www.ubereats.com/ca/store/the-fourth-man-in-the-fire/8IWEEz6gRluC_Uyjyo2w_A?diningMode=DELIVERY&pl=JTdCJTIyYWRkcmVzcyUyMiUzQSUyMjEyMCUyMFBhcmxpYW1lbnQlMjBTdCUyMiUyQyUyMnJlZmVyZW5jZSUyMiUzQSUyMmYwNWFkMTkyLWM4MzktNDkyZi03NWE0LTI4NGIxZDNjMGMwNiUyMiUyQyUyMnJlZmVyZW5jZVR5cGUlMjIlM0ElMjJ1YmVyX3BsYWNlcyUyMiUyQyUyMmxhdGl0dWRlJTIyJTNBNDMuNjUzODgxNyUyQyUyMmxvbmdpdHVkZSUyMiUzQS03OS4zNjQwMDQ3JTdE&utm_campaign=place-action-link&utm_medium=organic&utm_source=google',
+        doordash: 'https://www.doordash.com/en-CA/store/fourth-man-in-the-fire-toronto-725968/?utm_campaign=gpa',
         website: 'https://thefourthmaninthefirepizzeria.com/'
     },
     {
@@ -226,8 +240,9 @@ const pizzas = [
         name: 'Pizzeria Libretto',
         rating: '4.5',
         location: 'https://goo.gl/maps/V1KhkdAKSWXf3thU6',
-        reservation: false,
-        booking: '',
+        delivery: true,
+        ubereats: 'https://www.ubereats.com/ca/store/pizzeria-libretto-danforth/UDo2yaUVQam2laq7j78S7w?diningMode=DELIVERY&sc=SEARCH_SUGGESTION',
+        doordash: 'https://www.doordash.com/en-CA/store/pizzeria-libretto-toronto-542372/?event_type=autocomplete&pickup=false',
         website: 'https://www.pizzerialibretto.com/'
     },
     {
@@ -235,8 +250,9 @@ const pizzas = [
         name: 'Maker Pizza',
         rating: '4.3',
         location: 'https://goo.gl/maps/KCFzEak7VkWkTPf5A',
-        reservation: false,
-        booking: '',
+        delivery: true,
+        ubereats: 'https://www.ubereats.com/ca/store/maker-pizza-cameron/Y9bIrcEgS6a0MmXdDFjrug?diningMode=PICKUP&pl=JTdCJTIyYWRkcmVzcyUyMiUzQSUyMjEyMCUyMFBhcmxpYW1lbnQlMjBTdCUyMiUyQyUyMnJlZmVyZW5jZSUyMiUzQSUyMmYwNWFkMTkyLWM4MzktNDkyZi03NWE0LTI4NGIxZDNjMGMwNiUyMiUyQyUyMnJlZmVyZW5jZVR5cGUlMjIlM0ElMjJ1YmVyX3BsYWNlcyUyMiUyQyUyMmxhdGl0dWRlJTIyJTNBNDMuNjUzODgxNyUyQyUyMmxvbmdpdHVkZSUyMiUzQS03OS4zNjQwMDQ3JTdE&utm_campaign=place-action-link&utm_medium=organic&utm_source=google',
+        doordash: '',
         website: 'https://www.makerpizza.com/'
     },
     {
@@ -244,8 +260,9 @@ const pizzas = [
         name: 'Blaze Pizza',
         rating: '4.5',
         location: 'https://goo.gl/maps/kJFerbs165JvnvcC7',
-        reservation: false,
-        booking: '',
+        delivery: true,
+        ubereats: 'https://www.ubereats.com/ca/store/blaze-pizza-10-dundas-st/GdyJIdmOVty0EAc_XAdTVA?diningMode=PICKUP&pl=JTdCJTIyYWRkcmVzcyUyMiUzQSUyMjEyMCUyMFBhcmxpYW1lbnQlMjBTdCUyMiUyQyUyMnJlZmVyZW5jZSUyMiUzQSUyMmYwNWFkMTkyLWM4MzktNDkyZi03NWE0LTI4NGIxZDNjMGMwNiUyMiUyQyUyMnJlZmVyZW5jZVR5cGUlMjIlM0ElMjJ1YmVyX3BsYWNlcyUyMiUyQyUyMmxhdGl0dWRlJTIyJTNBNDMuNjUzODgxNyUyQyUyMmxvbmdpdHVkZSUyMiUzQS03OS4zNjQwMDQ3JTdE&utm_campaign=place-action-link&utm_medium=organic&utm_source=google',
+        doordash: 'https://www.doordash.com/en-CA/store/blaze-pizza-toronto-23046284/?utm_campaign=gpa',
         website: 'https://www.blazepizza.com/'
     },
     {
@@ -253,8 +270,9 @@ const pizzas = [
         name: 'Fresca Pizza and Pasta',
         rating: '4.6',
         location: 'https://goo.gl/maps/vfTLRD4d7ATQSYTk6',
-        reservation: false,
-        booking: '',
+        delivery: true,
+        ubereats: '',
+        doordash: 'https://www.doordash.com/en-CA/store/fresca-pizza-toronto-52392/?utm_campaign=gpa',
         website: 'https://www.frescapizzapasta.com/'
     },
     {
@@ -262,8 +280,9 @@ const pizzas = [
         name: 'Bitondo Pizzeria',
         rating: '4.5',
         location: 'https://goo.gl/maps/GzrQs1nUNtgKph9W8',
-        reservation: false,
-        booking: '',
+        delivery: true,
+        ubereats: 'https://www.ubereats.com/ca/store/bitondo-pizzeria/zJKhSH18Truhm1aroP5eng?diningMode=PICKUP&pl=JTdCJTIyYWRkcmVzcyUyMiUzQSUyMjEyMCUyMFBhcmxpYW1lbnQlMjBTdCUyMiUyQyUyMnJlZmVyZW5jZSUyMiUzQSUyMmYwNWFkMTkyLWM4MzktNDkyZi03NWE0LTI4NGIxZDNjMGMwNiUyMiUyQyUyMnJlZmVyZW5jZVR5cGUlMjIlM0ElMjJ1YmVyX3BsYWNlcyUyMiUyQyUyMmxhdGl0dWRlJTIyJTNBNDMuNjUzODgxNyUyQyUyMmxvbmdpdHVkZSUyMiUzQS03OS4zNjQwMDQ3JTdE&utm_campaign=place-action-link&utm_medium=organic&utm_source=google',
+        doordash: 'https://www.doordash.com/en-CA/store/bitondo\'s-pizzeria-toronto-52334/?utm_campaign=gpa',
         website: 'https://bitondo-pizzeria.business.site/'
     },
     {
@@ -271,8 +290,9 @@ const pizzas = [
         name: 'Burattino Brick Oven Pizza',
         rating: '4.1',
         location: 'https://goo.gl/maps/58c5gQ7m6Zt3otMw8',
-        reservation: false,
-        booking: '',
+        delivery: true,
+        ubereats: 'https://www.ubereats.com/ca/store/burattino-pizza/1DzTDHMWQC6m0aR0EK-nEA?diningMode=PICKUP&pl=JTdCJTIyYWRkcmVzcyUyMiUzQSUyMjEyMCUyMFBhcmxpYW1lbnQlMjBTdCUyMiUyQyUyMnJlZmVyZW5jZSUyMiUzQSUyMmYwNWFkMTkyLWM4MzktNDkyZi03NWE0LTI4NGIxZDNjMGMwNiUyMiUyQyUyMnJlZmVyZW5jZVR5cGUlMjIlM0ElMjJ1YmVyX3BsYWNlcyUyMiUyQyUyMmxhdGl0dWRlJTIyJTNBNDMuNjUzODgxNyUyQyUyMmxvbmdpdHVkZSUyMiUzQS03OS4zNjQwMDQ3JTdE&utm_campaign=place-action-link&utm_medium=organic&utm_source=google',
+        doordash: 'https://www.doordash.com/en-CA/store/burattino-brick-oven-pizza-inc-toronto-1882594/?utm_campaign=gpa',
         website: 'https://www.burattinopizza.ca/'
     }
 ]
@@ -283,8 +303,9 @@ const burgers = [
         name: 'Five Guys',
         rating: '4.3',
         location: 'https://goo.gl/maps/fxwCRSqJjGHF5HWX7',
-        reservation: false,
-        booking: '',
+        delivery: false,
+        ubereats: '',
+        doordash: '',
         website: 'https://www.fiveguys.ca/'
     },
     {
@@ -292,8 +313,9 @@ const burgers = [
         name: 'The Burger\'s Priest',
         rating: '4.3',
         location: 'https://goo.gl/maps/E8Zn2CajtghCbtgM9',
-        reservation: false,
-        booking: '',
+        delivery: true,
+        ubereats: 'https://www.ubereats.com/ca/store/burgers-priest-adelaide/N64J3IU2Qf68YPW71WhqCA?diningMode=PICKUP&pl=JTdCJTIyYWRkcmVzcyUyMiUzQSUyMjEyMCUyMFBhcmxpYW1lbnQlMjBTdCUyMiUyQyUyMnJlZmVyZW5jZSUyMiUzQSUyMmYwNWFkMTkyLWM4MzktNDkyZi03NWE0LTI4NGIxZDNjMGMwNiUyMiUyQyUyMnJlZmVyZW5jZVR5cGUlMjIlM0ElMjJ1YmVyX3BsYWNlcyUyMiUyQyUyMmxhdGl0dWRlJTIyJTNBNDMuNjUzODgxNyUyQyUyMmxvbmdpdHVkZSUyMiUzQS03OS4zNjQwMDQ3JTdE&utm_campaign=place-action-link&utm_medium=organic&utm_source=google',
+        doordash: 'https://www.doordash.com/en-CA/store/the-burger\'s-priest-toronto-50983/?utm_campaign=gpa',
         website: 'https://www.theburgerspriest.com/'
     },
     {
@@ -301,8 +323,9 @@ const burgers = [
         name: 'Chick-fil-A',
         rating: '4.3',
         location: 'https://goo.gl/maps/6uTPPkHZBXjaM1aj6',
-        reservation: false,
-        booking: '',
+        delivery: true,
+        ubereats: '',
+        doordash: 'https://www.doordash.com/en-CA/store/chick-fil-a%C2%AE-toronto-916282/?utm_campaign=gpa',
         website: 'https://www.chick-fil-a.ca/'
     },
     {
@@ -310,8 +333,9 @@ const burgers = [
         name: 'Rudy',
         rating: '4.2',
         location: 'https://goo.gl/maps/yLkY6xgo6NxKK3Tm8',
-        reservation: false,
-        booking: '',
+        delivery: true,
+        ubereats: 'https://www.ubereats.com/ca/store/rudy-college/vcmRVZ9WSkebaY52xWXQ4g?diningMode=PICKUP&pl=JTdCJTIyYWRkcmVzcyUyMiUzQSUyMjEyMCUyMFBhcmxpYW1lbnQlMjBTdCUyMiUyQyUyMnJlZmVyZW5jZSUyMiUzQSUyMmYwNWFkMTkyLWM4MzktNDkyZi03NWE0LTI4NGIxZDNjMGMwNiUyMiUyQyUyMnJlZmVyZW5jZVR5cGUlMjIlM0ElMjJ1YmVyX3BsYWNlcyUyMiUyQyUyMmxhdGl0dWRlJTIyJTNBNDMuNjUzODgxNyUyQyUyMmxvbmdpdHVkZSUyMiUzQS03OS4zNjQwMDQ3JTdE&utm_campaign=place-action-link&utm_medium=organic&utm_source=google',
+        doordash: '',
         website: 'http://www.rudyresto.com/'
     },
     {
@@ -319,8 +343,9 @@ const burgers = [
         name: 'Happy Burger',
         rating: '4.5',
         location: 'https://goo.gl/maps/UkLGxS54KDBfkNiN6',
-        reservation: false,
-        booking: '',
+        delivery: true,
+        ubereats: 'https://www.ubereats.com/ca/store/happy-burger-yonge-st/kaU-zJdIV_OfZ3Tw1P5kPQ?diningMode=PICKUP',
+        doordash: 'https://www.doordash.com/en-CA/store/happy-burger-toronto-1138759/?utm_campaign=gpa',
         website: 'http://happyburger.ca/'
     },
     {
@@ -328,8 +353,9 @@ const burgers = [
         name: 'The Burgernator',
         rating: '4.4',
         location: 'https://goo.gl/maps/g4gih4zrfRuzqCQHA',
-        reservation: false,
-        booking: '',
+        delivery: true,
+        ubereats: 'https://www.ubereats.com/ca/store/the-burgernator/c7mmzM46TFGHVwOqYIVh5A?diningMode=PICKUP&pl=JTdCJTIyYWRkcmVzcyUyMiUzQSUyMjEyMCUyMFBhcmxpYW1lbnQlMjBTdCUyMiUyQyUyMnJlZmVyZW5jZSUyMiUzQSUyMmYwNWFkMTkyLWM4MzktNDkyZi03NWE0LTI4NGIxZDNjMGMwNiUyMiUyQyUyMnJlZmVyZW5jZVR5cGUlMjIlM0ElMjJ1YmVyX3BsYWNlcyUyMiUyQyUyMmxhdGl0dWRlJTIyJTNBNDMuNjUzODgxNyUyQyUyMmxvbmdpdHVkZSUyMiUzQS03OS4zNjQwMDQ3JTdE&utm_campaign=place-action-link&utm_medium=organic&utm_source=google',
+        doordash: 'https://www.doordash.com/en-CA/store/the-burgernator-toronto-30233/?utm_campaign=gpa',
         website: 'http://www.theburgernator.com/'
     },
     {
@@ -337,8 +363,9 @@ const burgers = [
         name: 'Cabano\'s Cheeseburgers',
         rating: '4.6',
         location: 'https://goo.gl/maps/sf2GppSkxGrrVe727',
-        reservation: false,
-        booking: '',
+        delivery: true,
+        ubereats: 'https://www.ubereats.com/ca/store/cabanos-cheeseburgers-downtown/oQRRMhOtTI69ihriwJsJBQ?diningMode=PICKUP&pl=JTdCJTIyYWRkcmVzcyUyMiUzQSUyMjEyMCUyMFBhcmxpYW1lbnQlMjBTdCUyMiUyQyUyMnJlZmVyZW5jZSUyMiUzQSUyMmYwNWFkMTkyLWM4MzktNDkyZi03NWE0LTI4NGIxZDNjMGMwNiUyMiUyQyUyMnJlZmVyZW5jZVR5cGUlMjIlM0ElMjJ1YmVyX3BsYWNlcyUyMiUyQyUyMmxhdGl0dWRlJTIyJTNBNDMuNjUzODgxNyUyQyUyMmxvbmdpdHVkZSUyMiUzQS03OS4zNjQwMDQ3JTdE&utm_campaign=place-action-link&utm_medium=organic&utm_source=google',
+        doordash: 'https://www.doordash.com/en-CA/store/cabano\'s-cheeseburgers-toronto-23611035/?utm_campaign=gpa',
         website: 'http://www.cabanos.ca/'
     },
     {
@@ -346,8 +373,9 @@ const burgers = [
         name: 'Burger Drops',
         rating: '4.7',
         location: 'https://goo.gl/maps/qZjMoCphRx2B3e5v8',
-        reservation: false,
-        booking: '',
+        delivery: true,
+        ubereats: 'https://www.ubereats.com/ca/store/burger-drops/kxTMAMGuRHSKKgAkSwTXRA?diningMode=PICKUP&ps=1',
+        doordash: 'https://www.doordash.com/en-CA/store/burger-drops-toronto-1743024/?cursor=eyJzdG9yZV92ZXJ0aWNhbF9pZCI6bnVsbCwic2VhcmNoX2l0ZW1fY2Fyb3VzZWxfY3Vyc29yIjp7InF1ZXJ5IjoiYnVyZ2VyIGRyb3BzIiwiaXRlbV9pZHMiOltdLCJzZWFyY2hfdGVybSI6ImJ1cmdlciBkcm9wIiwidmVydGljYWxfaWQiOi05OTksInZlcnRpY2FsX25hbWUiOiJhbGwifSwic3RvcmVfcHJpbWFyeV92ZXJ0aWNhbF9pZHMiOlsxXSwiaXNfc2libGluZyI6ZmFsc2UsImZvcmNlX3N0b3JlX2F2YWlsYWJpbGl0eV92MiI6ZmFsc2UsImJ1bmRsZV9nbG9iYWxfc2VhcmNoX2NvbnRleHQiOm51bGx9&pickup=false',
         website: 'http://www.burgerdrops.com/'
     },
     {
@@ -355,8 +383,9 @@ const burgers = [
         name: 'Ozzy\'s Burgers Toronto',
         rating: '4.5',
         location: 'https://goo.gl/maps/uibVzC3EvfpvJTYbA',
-        reservation: false,
-        booking: '',
+        delivery: true,
+        ubereats: 'https://www.ubereats.com/ca/store/ozzys-burgers/DbBXx_DbRpCYQm8H9PFcHw?diningMode=PICKUP&pl=JTdCJTIyYWRkcmVzcyUyMiUzQSUyMjEyMCUyMFBhcmxpYW1lbnQlMjBTdCUyMiUyQyUyMnJlZmVyZW5jZSUyMiUzQSUyMmYwNWFkMTkyLWM4MzktNDkyZi03NWE0LTI4NGIxZDNjMGMwNiUyMiUyQyUyMnJlZmVyZW5jZVR5cGUlMjIlM0ElMjJ1YmVyX3BsYWNlcyUyMiUyQyUyMmxhdGl0dWRlJTIyJTNBNDMuNjUzODgxNyUyQyUyMmxvbmdpdHVkZSUyMiUzQS03OS4zNjQwMDQ3JTdE&utm_campaign=place-action-link&utm_medium=organic&utm_source=google',
+        doordash: 'https://www.doordash.com/en-CA/store/ozzy\'s-burgers-toronto-314607/?utm_campaign=gpa',
         website: 'https://www.facebook.com/ozzysburgers/'
     },
     {
@@ -364,8 +393,9 @@ const burgers = [
         name: 'Top Gun Burger',
         rating: '4.4',
         location: 'https://goo.gl/maps/BnQrgAMBzupjyayU78',
-        reservation: false,
-        booking: '',
+        delivery: true,
+        ubereats: 'https://www.ubereats.com/store/top-gun-burgers-bloor-st/6wTfrfetXTKoZgqNA7CczQ?diningMode=PICKUP',
+        doordash: 'https://www.doordash.com/en-CA/store/top-gun-steak-&-burgers-toronto-858078/?utm_campaign=gpa',
         website: 'http://topgunburgerto.com/'
     }
 ]
