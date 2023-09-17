@@ -27,7 +27,7 @@ export default function Navbar () {
     
     return (
         
-        <nav className="bg-white border-gray-200 dark:bg-gray-900">
+        <nav className="bg-blue border-gray-200 dark:bg-gray-900">
             {session ? (
                 <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
                     <Link href="/" className="flex items-center">

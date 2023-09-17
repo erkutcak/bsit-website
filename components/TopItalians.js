@@ -31,7 +31,7 @@ const TopItalians = () => {
 
     return (
         <ul className='bg-white/[.8] mx-8 my-4 px-7 py-[4px] rounded-lg list-decimal'>
-            <h2 className='text-2xl mb-4 text-center'>🇮🇹 Top 10 Italian Spots 🇮🇹</h2>
+            {/* <h2 className='text-2xl mb-4 text-center'>🇮🇹 Top 10 Italian Spots 🇮🇹</h2> */}
             {displaySpots}
         </ul>
     )
