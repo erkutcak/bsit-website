@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bitter:wght@500;900&display=swap');
 
 @tailwind base;
 @tailwind components;
@@ -78,7 +80,7 @@
   }
   body {
     @apply bg-background text-foreground;
-    background-image: linear-gradient(to right, #ffc3a0 0%, #ffafbd 100%);
+    background-image: url('/bg.png');
   }
 }
 

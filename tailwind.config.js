@@ -71,11 +71,14 @@ module.exports = {
         "accordion-up": "accordion-up 0.2s ease-out",
       },
       fontFamily: {
-        indieflower: ['Indie Flower']
+        indieflower: ['Indie Flower'],
+        roboto: ['Roboto'],
+        bitter: ['Bitter'],
       },
       backgroundImage: {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
         'gradient-conic': 'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
+        'custom-bg': "url('/public/bg.png')",
       },
   },
   plugins: [require("tailwindcss-animate")],
