@@ -45,24 +45,24 @@ export default function Navbar () {
                         <motion.div className={`origin-top-right absolute right-0 top-full w-56 rounded-md shadow-lg bg-white ring-1 ring-black ring-opacity-5 lg:relative lg:w-auto lg:bg-transparent lg:ring-0 lg:mt-0 lg:shadow-none ${isMainMenuDropdownOpen ? 'block' : 'hidden'} lg:flex`} id="navbar-user" initial="closed" animate={isMainMenuDropdownOpen ? "open" : "closed"} variants={variants} >
                             <div className="py-1 lg:flex lg:flex-row lg:space-x-4 lg:items-center" role="menu" aria-labelledby="options-menu">
                                 <Link href="/" role="menuitem">
-                                    <button className={`${isActive === 'home' ? 'bg-gray-100 text-gray-700' : 'text-white'} block px-4 py-2 text-md hover:bg-gray-100 hover:text-gray-900 max-lg:text-gray-700`} onClick={() => toggleActive('home')}>Home</button>
+                                    <button className={`${isActive === 'home' ? 'bg-gray-100 text-gray-700' : 'text-white'} block px-4 py-2 text-md font-bitter hover:bg-gray-100 hover:text-gray-900 max-lg:text-gray-700`} onClick={() => toggleActive('home')}>Home</button>
                                 </Link>
                                 <Link href="/about" role="menuitem">
-                                    <button className={`${isActive === 'about' ? 'bg-gray-100 text-gray-700' : 'text-white'} block px-4 py-2 text-md hover:bg-gray-100 hover:text-gray-900 max-lg:text-gray-700`} onClick={() => toggleActive('about')}>About</button>
+                                    <button className={`${isActive === 'about' ? 'bg-gray-100 text-gray-700' : 'text-white'} block px-4 py-2 text-md font-bitter hover:bg-gray-100 hover:text-gray-900 max-lg:text-gray-700`} onClick={() => toggleActive('about')}>About</button>
                                 </Link>
                                 <Link href="/recipes" role="menuitem">
-                                    <button className={`${isActive === 'recipes' ? 'bg-gray-100 text-gray-700' : 'text-white'} block px-4 py-2 text-md hover:bg-gray-100 hover:text-gray-900 max-lg:text-gray-700`} onClick={() => toggleActive('recipes')}>Recipes</button>
+                                    <button className={`${isActive === 'recipes' ? 'bg-gray-100 text-gray-700' : 'text-white'} block px-4 py-2 text-md font-bitter hover:bg-gray-100 hover:text-gray-900 max-lg:text-gray-700`} onClick={() => toggleActive('recipes')}>Recipes</button>
                                 </Link>
                                 <Link href="/blog" role="menuitem">
-                                    <button className={`${isActive === 'blog' ? 'bg-gray-100 text-gray-700' : 'text-white'} block px-4 py-2 text-md hover:bg-gray-100 hover:text-gray-900 max-lg:text-gray-700`} onClick={() => toggleActive('blog')}>Blog</button>
+                                    <button className={`${isActive === 'blog' ? 'bg-gray-100 text-gray-700' : 'text-white'} block px-4 py-2 text-md font-bitter hover:bg-gray-100 hover:text-gray-900 max-lg:text-gray-700`} onClick={() => toggleActive('blog')}>Blog</button>
                                 </Link>
                                 <Link href="/myprofile" role="menuitem">
-                                    <button className={`${isActive === 'myprofile' ? 'bg-gray-100 text-gray-700' : 'text-white'} flex items-center px-4 py-2 text-md hover:bg-gray-100 hover:text-gray-900 max-lg:text-gray-700`} onClick={() => toggleActive('myprofile')}>
+                                    <button className={`${isActive === 'myprofile' ? 'bg-gray-100 text-gray-700' : 'text-white'} flex items-center px-4 py-2 text-md font-bitter hover:bg-gray-100 hover:text-gray-900 max-lg:text-gray-700`} onClick={() => toggleActive('myprofile')}>
                                         <img src={session?.user?.image} className="h-6 w-6 mr-2 rounded-full" alt="User Image" />
                                         {session?.user?.name || 'Profile'}
                                     </button>
                                 </Link>
-                                <Link href="/" className="block px-4 py-2 text-md text-gray-700 hover:bg-gray-100 hover:text-gray-900 lg:bg-transparent lg:text-white" role="menuitem" onClick={() => signOut()}>Logout</Link>
+                                <Link href="/" className="block px-4 py-2 text-md text-gray-700 font-bitter hover:bg-gray-100 hover:text-gray-900 lg:bg-transparent lg:text-white" role="menuitem" onClick={() => signOut()}>Logout</Link>
                             </div>
                         </motion.div>
                     </div>
