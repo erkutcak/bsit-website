@@ -400,4 +400,200 @@ const burgers = [
     }
 ]
 
-export { italians, coffees, pizzas, burgers };
+const bars = [
+    {
+        id: 1,
+        name: 'Bar Raval',
+        rating: '4.5',
+        location: 'https://maps.app.goo.gl/bY7H15zgWviprn1D9',
+        reservation: false,
+        booking: '',
+        website: 'https://www.thisisbarraval.com'
+    },
+    {
+        id: 2,
+        name: 'Bar Poet',
+        rating: '4.4',
+        location: 'https://maps.app.goo.gl/Q6AqCEMJmNeAF5y27',
+        reservation: true,
+        booking: 'https://resy.com/cities/tor/bar-poet?date=2023-09-23&seats=2',
+        website: 'https://www.barpoet.com'
+    },
+    {
+        id: 3,
+        name: 'BarChef',
+        rating: '4.7',
+        location: 'https://maps.app.goo.gl/1mpjJkYb8njbr3X97',
+        reservation: true,
+        booking: 'https://www.opentable.ca/r/barchef-toronto?ref=16423',
+        website: 'http://www.barchef.com'
+    },
+    {
+        id: 4,
+        name: 'CLOCKWORK Champagne & Cocktails',
+        rating: '4.5',
+        location: 'https://maps.app.goo.gl/8zXHsLkajtgChnEm8',
+        reservation: true,
+        booking: 'https://www.opentable.ca/r/clockwork-toronto?ref=16423',
+        website: 'http://www.clockworktoronto.com'
+    },
+    {
+        id: 5,
+        name: 'Mother',
+        rating: '4.7',
+        location: 'https://maps.app.goo.gl/Cwwy1yTGFS1f2KXs7',
+        reservation: true,
+        booking: 'https://www.opentable.ca/r/mother-cocktail-bar-toronto?ref=16423',
+        website: 'http://www.motherdrinks.co'
+    },
+    {
+        id: 6,
+        name: 'Melrose On Adelaide',
+        rating: '4.5',
+        location: 'https://maps.app.goo.gl/p77QYtkjsnT3R8vQ9',
+        reservation: true,
+        booking: 'https://www.melroseonadelaide.com/reserve',
+        website: 'http://www.melroseonadelaide.com'
+    },
+    {
+        id: 7,
+        name: 'Cocktail Bar',
+        rating: '4.5',
+        location: 'https://maps.app.goo.gl/UCiU9dvcAQ6cuFDf9',
+        reservation: false,
+        booking: '',
+        website: 'http://hoofcocktailbar.com'
+    },
+    {
+        id: 8,
+        name: 'Bar Pompette',
+        rating: '4.8',
+        location: 'https://maps.app.goo.gl/3zUdEWdep1o2Q9tH7',
+        reservation: false,
+        booking: '',
+        website: 'https://www.pompette.ca/barpompette'
+    },
+    {
+        id: 9,
+        name: 'PREQUEL & CO. Apothecary',
+        rating: '4.6',
+        location: 'https://maps.app.goo.gl/rHAPLvPXYdbeLppB7',
+        reservation: true,
+        booking: 'https://www.opentable.ca/r/prequel-and-co-apothecary-toronto?ref=16423',
+        website: 'http://www.barprequel.com/'
+    },
+    {
+        id: 10,
+        name: 'Civil Liberties',
+        rating: '4.7',
+        location: 'https://maps.app.goo.gl/ss8DsW9cpgn9bTvGA',
+        reservation: false,
+        booking: '',
+        website: 'http://www.civillibertiesbar.com/'
+    }
+]
+
+const bakeries = [
+    {
+        id: 1,
+        name: 'Forno Cultura',
+        rating: '4.6',
+        location: 'https://maps.app.goo.gl/oj1H7UTRq9bA58Hg7',
+        delivery: false,
+        ubereats: '',
+        doordash: '',
+        website: 'https://www.fornocultura.com/'
+    },
+    {
+        id: 2,
+        name: 'Aux Merveilleux de Fred',
+        rating: '4.6',
+        location: 'https://maps.app.goo.gl/146nfWY3EPRxYLyi8',
+        delivery: false,
+        ubereats: '',
+        doordash: '',
+        website: 'http://www.marvelousbyfred.ca/'
+    },
+    {
+        id: 3,
+        name: 'Roselle Desserts',
+        rating: '4.8',
+        location: 'https://maps.app.goo.gl/9bA918fbv9GesqJJ9',
+        delivery: false,
+        ubereats: '',
+        doordash: '',
+        website: 'http://www.roselleto.com/'
+    },
+    {
+        id: 4,
+        name: 'Sud Forno',
+        rating: '4.5',
+        location: 'https://maps.app.goo.gl/LNKyWC1DqkqryK756',
+        delivery: true,
+        ubereats: 'https://www.ubereats.com/ca/store/sud-forno/F-pDkgmAQx2C8gAk_zmUGQ?diningMode=DELIVERY&pl=JTdCJTIyYWRkcmVzcyUyMiUzQSUyMjEyMCUyMFBhcmxpYW1lbnQlMjBTdCUyMiUyQyUyMnJlZmVyZW5jZSUyMiUzQSUyMmYwNWFkMTkyLWM4MzktNDkyZi03NWE0LTI4NGIxZDNjMGMwNiUyMiUyQyUyMnJlZmVyZW5jZVR5cGUlMjIlM0ElMjJ1YmVyX3BsYWNlcyUyMiUyQyUyMmxhdGl0dWRlJTIyJTNBNDMuNjUzODgxNyUyQyUyMmxvbmdpdHVkZSUyMiUzQS03OS4zNjQwMDQ3JTdE&utm_campaign=place-action-link&utm_medium=organic&utm_source=google',
+        doordash: 'https://www.doordash.com/store/sud-forno-toronto-26637/',
+        website: 'https://www.terroni.com/locations/sud-forno-queen'
+    },
+    {
+        id: 5,
+        name: 'Bricolage Bakery',
+        rating: '5.0',
+        location: 'https://maps.app.goo.gl/c86TUFN46uNTrXp47',
+        delivery: false,
+        ubereats: '',
+        doordash: '',
+        website: 'https://www.instagram.com/bricolage_bakery/?hl=en'
+    },
+    {
+        id: 6,
+        name: 'COBS Bread',
+        rating: '4.6',
+        location: 'https://maps.app.goo.gl/AsyqjfU6UCQ4wavY6',
+        delivery: true,
+        ubereats: 'https://www.ubereats.com/ca/store/cobs-bread-the-beach/p9lhiIqKQYqZOv9nCJEpMw?diningMode=DELIVERY&pl=JTdCJTIyYWRkcmVzcyUyMiUzQSUyMjEyMCUyMFBhcmxpYW1lbnQlMjBTdCUyMiUyQyUyMnJlZmVyZW5jZSUyMiUzQSUyMmYwNWFkMTkyLWM4MzktNDkyZi03NWE0LTI4NGIxZDNjMGMwNiUyMiUyQyUyMnJlZmVyZW5jZVR5cGUlMjIlM0ElMjJ1YmVyX3BsYWNlcyUyMiUyQyUyMmxhdGl0dWRlJTIyJTNBNDMuNjUzODgxNyUyQyUyMmxvbmdpdHVkZSUyMiUzQS03OS4zNjQwMDQ3JTdE&utm_campaign=place-action-link&utm_medium=organic&utm_source=google',
+        doordash: 'https://www.doordash.com/store/cobs-bread-toronto-1586186/?event_type=autocomplete&pickup=false',
+        website: 'https://www.cobsbread.com/'
+    },
+    {
+        id: 7,
+        name: 'Blackbird Baking Co.',
+        rating: '4.7',
+        location: 'https://maps.app.goo.gl/u2ZcPaREyxgVciXY8',
+        delivery: false,
+        ubereats: '',
+        doordash: '',
+        website: 'http://blackbirdbakingco.com/'
+    },
+    {
+        id: 8,
+        name: '\'Le Beau\' Croissanterie',
+        rating: '4.7',
+        location: 'https://maps.app.goo.gl/qNxqgBn5dUHrkRQ1A',
+        delivery: false,
+        ubereats: '',
+        doordash: '',
+        website: 'http://www.lebeaulab.com/'
+    },
+    {
+        id: 9,
+        name: 'Le Génie Bakery & Espresso',
+        rating: '4.4',
+        location: 'https://maps.app.goo.gl/prrbS2UuKwMpPZeLA',
+        delivery: true,
+        ubereats: 'https://www.ubereats.com/ca/store/le-genie-bakery-%26-espresso-yonge-%26-gerrard/De5HMZf-RLmgjwESqo1Fgg?diningMode=DELIVERY&pl=JTdCJTIyYWRkcmVzcyUyMiUzQSUyMjEyMCUyMFBhcmxpYW1lbnQlMjBTdCUyMiUyQyUyMnJlZmVyZW5jZSUyMiUzQSUyMmYwNWFkMTkyLWM4MzktNDkyZi03NWE0LTI4NGIxZDNjMGMwNiUyMiUyQyUyMnJlZmVyZW5jZVR5cGUlMjIlM0ElMjJ1YmVyX3BsYWNlcyUyMiUyQyUyMmxhdGl0dWRlJTIyJTNBNDMuNjUzODgxNyUyQyUyMmxvbmdpdHVkZSUyMiUzQS03OS4zNjQwMDQ3JTdE&ps=1&utm_campaign=place-action-link&utm_medium=organic&utm_source=google',
+        doordash: 'https://www.doordash.com/store/le-genie-bakery-&-espresso-toronto-24700729',
+        website: 'https://le-genie.ca/'
+    },
+    {
+        id: 10,
+        name: 'Nugateau Patisserie',
+        rating: '4.4',
+        location: 'https://maps.app.goo.gl/Qea7mbn6g66ZWoan6',
+        delivery: true,
+        ubereats: 'https://www.ubereats.com/ca/store/nugateau/P_0zccUFTo673bG1xAMp4g?diningMode=DELIVERY&pl=JTdCJTIyYWRkcmVzcyUyMiUzQSUyMjEyMCUyMFBhcmxpYW1lbnQlMjBTdCUyMiUyQyUyMnJlZmVyZW5jZSUyMiUzQSUyMmYwNWFkMTkyLWM4MzktNDkyZi03NWE0LTI4NGIxZDNjMGMwNiUyMiUyQyUyMnJlZmVyZW5jZVR5cGUlMjIlM0ElMjJ1YmVyX3BsYWNlcyUyMiUyQyUyMmxhdGl0dWRlJTIyJTNBNDMuNjUzODgxNyUyQyUyMmxvbmdpdHVkZSUyMiUzQS03OS4zNjQwMDQ3JTdE&utm_campaign=place-action-link&utm_medium=organic&utm_source=google',
+        doordash: 'https://www.doordash.com/store/nugateau-patisserie-toronto-314538/?utm_campaign=gpa',
+        website: 'http://www.nugateau.com'
+    },
+]
+
+export { italians, coffees, pizzas, burgers, bars, bakeries };

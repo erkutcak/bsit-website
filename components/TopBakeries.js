@@ -1,12 +1,12 @@
-import { burgers } from '@/constants'
+import { bakeries } from '@/constants'
 import Image from 'next/image'
 import React from 'react'
 import ubereats from '../public/ubereats.png'
 import doordash from '../public/doordash.png'
 
-const TopBurgers = () => {
+const TopBakeries = () => {
 
-    const displaySpots = burgers.map((restaurant) => (
+    const displaySpots = bakeries.map((restaurant) => (
         <li className='my-4 flex-column' key={restaurant.id}>
             <h2 className="flex-shrink border-b border-gray-300 font-bitter text-xl">{restaurant.name}</h2>
             <div className='flex items-center mt-2 flex-wrap justify-around'>
@@ -44,7 +44,7 @@ const TopBurgers = () => {
 
                 {
                 !restaurant.delivery && (
-                    <p className=' w-[77px] font-bitter px-3 py-2 text-xs font-medium text-center text-white bg-[#A67DB8] rounded-lg hover:bg-gray-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-gray-500 dark:hover:bg-gray-700 dark:focus:ring-blue-800'>Walk-in</p>
+                    <p className=' w-[77px] font-bitter px-3 py-2 text-xs font-medium text-center text-white bg-[#A67DB8] rounded-lg hover:bg-[#A67DB8] focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-gray-500 dark:hover:bg-gray-700 dark:focus:ring-blue-800'>Walk-in</p>
                 )
                 }
             </div>
@@ -53,10 +53,10 @@ const TopBurgers = () => {
 
     return (
         <ul className='bg-white/[.8] mx-8 my-4 px-7 py-[4px] rounded-lg list-decimal'>
-            {/* <h2 className='text-2xl mb-4 text-center'>🍔 Top 10 Burger Spots 🍔</h2> */}
+            {/* <h2 className='text-2xl mb-4 text-center'>🍕 Top 10 Pizza Spots 🍕</h2> */}
             {displaySpots}
         </ul>
     )
 }
 
-export default TopBurgers;
+export default TopBakeries;
