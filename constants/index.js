@@ -596,4 +596,499 @@ const bakeries = [
     },
 ]
 
-export { italians, coffees, pizzas, burgers, bars, bakeries };
+const breakfast = [
+    {
+        id: 1,
+        name: 'Emma\'s Country Kitchen',
+        rating: '4.6',
+        location: 'https://maps.app.goo.gl/NFdY3jGd3uwAPP5H6',
+        delivery: true,
+        ubereats: 'https://www.emmascountrykitchen.com/online-ordering',
+        doordash: 'https://www.emmascountrykitchen.com/online-ordering',
+        website: 'https://www.emmascountrykitchen.com'
+    },
+    {
+        id: 2,
+        name: 'Mildred\'s Temple Kitchen',
+        rating: '4.4',
+        location: 'https://maps.app.goo.gl/6CrkWJvgpFB3DqVu7',
+        delivery: false,
+        ubereats: '',
+        doordash: '',
+        website: 'https://mildreds.ca'
+    },
+    {
+        id: 3,
+        name: 'Lady Marmalade',
+        rating: '4.5',
+        location: 'https://maps.app.goo.gl/Y3eVbsMS789y6niG9',
+        delivery: false,
+        ubereats: '',
+        doordash: '',
+        website: 'http://www.ladymarmalade.ca/'
+    },
+    {
+        id: 4,
+        name: 'Old School',
+        rating: '4.0',
+        location: 'https://maps.app.goo.gl/eF4Xb1hQEgYzeWNDA',
+        delivery: true,
+        ubereats: 'https://www.ubereats.com/ca/store/old-school/i-wxtCKZQOOctP0pNkYX0Q?diningMode=DELIVERY&sc=SEARCH_SUGGESTION',
+        doordash: 'https://www.doordash.com/store/old-school-toronto-26608/?event_type=autocomplete&pickup=false',
+        website: 'http://www.oldschoolyyz.com/'
+    },
+    {
+        id: 5,
+        name: 'Saving Grace',
+        rating: '4.2',
+        location: 'https://maps.app.goo.gl/y5txgjWTxi1CT3gT6',
+        delivery: false,
+        ubereats: '',
+        doordash: '',
+        website: 'https://www.instagram.com/savinggraceto/'
+    },
+    {
+        id: 6,
+        name: 'The Lounge at the Drake Hotel',
+        rating: '4.0',
+        location: 'https://maps.app.goo.gl/nTuUvFXHbKjgcTx78',
+        delivery: true,
+        ubereats: 'https://www.ubereats.com/ca/store/the-drake-hotel/kyd-YNciSFuKAmyQPg3jTg?diningMode=DELIVERY&sc=SEARCH_SUGGESTION',
+        doordash: '',
+        website: 'http://www.thedrakehotel.ca/dining/venues/lounge/'
+    },
+    {
+        id: 7,
+        name: 'Figs Breakfast Lunch',
+        rating: '4.4',
+        location: 'https://maps.app.goo.gl/AXdpC54BRaJ8wwZW9',
+        delivery: false,
+        ubereats: '',
+        doordash: '',
+        website: 'http://www.figsbreakfastlunch.com/'
+    },
+    {
+        id: 8,
+        name: '1 Kitchen Toronto',
+        rating: '4.2',
+        location: 'https://maps.app.goo.gl/SoQrTH59rwgZMydN6',
+        delivery: false,
+        ubereats: '',
+        doordash: '',
+        website: 'https://www.1hotels.com/toronto/taste/1-kitchen'
+    },
+    {
+        id: 9,
+        name: 'Sisters & Co',
+        rating: '4.6',
+        location: 'https://maps.app.goo.gl/iEtzdxXgPkAwvSbM9',
+        delivery: true,
+        ubereats: 'https://www.ubereats.com/ca/store/sisters-%26-co/RiGgbyd6REq3EKdAQtvl8w?diningMode=DELIVERY&pl=JTdCJTIyYWRkcmVzcyUyMiUzQSUyMjEyMCUyMFBhcmxpYW1lbnQlMjBTdCUyMiUyQyUyMnJlZmVyZW5jZSUyMiUzQSUyMmYwNWFkMTkyLWM4MzktNDkyZi03NWE0LTI4NGIxZDNjMGMwNiUyMiUyQyUyMnJlZmVyZW5jZVR5cGUlMjIlM0ElMjJ1YmVyX3BsYWNlcyUyMiUyQyUyMmxhdGl0dWRlJTIyJTNBNDMuNjUzODgxNyUyQyUyMmxvbmdpdHVkZSUyMiUzQS03OS4zNjQwMDQ3JTdE&ps=1&utm_campaign=place-action-link&utm_medium=organic&utm_source=google',
+        doordash: 'https://www.doordash.com/store/sisters-and-co-toronto-25147086/?utm_campaign=gpa',
+        website: 'https://sistersco.ca/'
+    },
+    {
+        id: 10,
+        name: 'Milou',
+        rating: '4.2',
+        location: 'https://maps.app.goo.gl/7YTQR8W31ZRw7SnR7',
+        delivery: false,
+        ubereats: '',
+        doordash: '',
+        website: 'https://miloutoronto.com/'
+    },
+]
+
+const healthy = [
+    {
+        id: 1,
+        name: 'PLANTA Queen',
+        rating: '4.5',
+        location: 'https://maps.app.goo.gl/zJQMVseDRG12PfVE9',
+        delivery: true,
+        ubereats: 'https://www.ubereats.com/ca/store/planta-queen/Q1f1Ml5UQ3awzFHmSW_FYg?diningMode=DELIVERY&pl=JTdCJTIyYWRkcmVzcyUyMiUzQSUyMjEyMCUyMFBhcmxpYW1lbnQlMjBTdCUyMiUyQyUyMnJlZmVyZW5jZSUyMiUzQSUyMmYwNWFkMTkyLWM4MzktNDkyZi03NWE0LTI4NGIxZDNjMGMwNiUyMiUyQyUyMnJlZmVyZW5jZVR5cGUlMjIlM0ElMjJ1YmVyX3BsYWNlcyUyMiUyQyUyMmxhdGl0dWRlJTIyJTNBNDMuNjUzODgxNyUyQyUyMmxvbmdpdHVkZSUyMiUzQS03OS4zNjQwMDQ3JTdE&utm_campaign=place-action-link&utm_medium=organic&utm_source=google',
+        doordash: 'https://www.doordash.com/store/planta-queen-toronto-714658/?utm_campaign=gpa',
+        website: 'https://www.plantarestaurants.com/location/planta-queen-yorkville/'
+    },
+    {
+        id: 2,
+        name: 'Mary Be Kitchen',
+        rating: '4.5',
+        location: 'https://maps.app.goo.gl/bbzSyiHMvP6Muxcn8',
+        delivery: true,
+        ubereats: 'https://www.ubereats.com/ca/store/mary-be-kitchen/IeXcrvWuQTqwHxpLQS3kig?diningMode=DELIVERY&pl=JTdCJTIyYWRkcmVzcyUyMiUzQSUyMjEyMCUyMFBhcmxpYW1lbnQlMjBTdCUyMiUyQyUyMnJlZmVyZW5jZSUyMiUzQSUyMmYwNWFkMTkyLWM4MzktNDkyZi03NWE0LTI4NGIxZDNjMGMwNiUyMiUyQyUyMnJlZmVyZW5jZVR5cGUlMjIlM0ElMjJ1YmVyX3BsYWNlcyUyMiUyQyUyMmxhdGl0dWRlJTIyJTNBNDMuNjUzODgxNyUyQyUyMmxvbmdpdHVkZSUyMiUzQS03OS4zNjQwMDQ3JTdE&utm_campaign=place-action-link&utm_medium=organic&utm_source=google',
+        doordash: 'https://www.doordash.com/store/mary-be-kitchen-toronto-237559/?utm_campaign=gpa',
+        website: 'http://www.marybekitchen.com/'
+    },
+    {
+        id: 3,
+        name: 'Fresh Kitchen + Juice Bar Eglinton',
+        rating: '4.4',
+        location: 'https://maps.app.goo.gl/MkSbZFGo6xUak7W36',
+        delivery: true,
+        ubereats: 'https://www.ubereats.com/ca/store/fresh-kitchen-%2B-juice-bar-on-eglinton/UAoAH3ejR4e2EDmJfZcgbA?diningMode=DELIVERY&pl=JTdCJTIyYWRkcmVzcyUyMiUzQSUyMjEyMCUyMFBhcmxpYW1lbnQlMjBTdCUyMiUyQyUyMnJlZmVyZW5jZSUyMiUzQSUyMmYwNWFkMTkyLWM4MzktNDkyZi03NWE0LTI4NGIxZDNjMGMwNiUyMiUyQyUyMnJlZmVyZW5jZVR5cGUlMjIlM0ElMjJ1YmVyX3BsYWNlcyUyMiUyQyUyMmxhdGl0dWRlJTIyJTNBNDMuNjUzODgxNyUyQyUyMmxvbmdpdHVkZSUyMiUzQS03OS4zNjQwMDQ3JTdE&utm_campaign=place-action-link&utm_medium=organic&utm_source=google',
+        doordash: 'https://www.doordash.com/store/fresh:-kitchen-+-juice-bar-toronto-152774/?utm_campaign=gpa',
+        website: 'https://www.freshkitchens.ca/en/locations/on/toronto/101-eglinton-avenue-east'
+    },
+    {
+        id: 4,
+        name: 'nutbar',
+        rating: '4.5',
+        location: 'https://maps.app.goo.gl/W3wPNYGAgzLZWDcB7',
+        delivery: true,
+        ubereats: 'https://www.ubereats.com/ca/store/nutbar-summerhill/lV3DcuRkSuyySUUtZ7FQoQ?diningMode=DELIVERY&pl=JTdCJTIyYWRkcmVzcyUyMiUzQSUyMjEyMCUyMFBhcmxpYW1lbnQlMjBTdCUyMiUyQyUyMnJlZmVyZW5jZSUyMiUzQSUyMmYwNWFkMTkyLWM4MzktNDkyZi03NWE0LTI4NGIxZDNjMGMwNiUyMiUyQyUyMnJlZmVyZW5jZVR5cGUlMjIlM0ElMjJ1YmVyX3BsYWNlcyUyMiUyQyUyMmxhdGl0dWRlJTIyJTNBNDMuNjUzODgxNyUyQyUyMmxvbmdpdHVkZSUyMiUzQS03OS4zNjQwMDQ3JTdE&utm_campaign=place-action-link&utm_medium=organic&utm_source=google',
+        doordash: '',
+        website: 'http://nutbar.co/'
+    },
+    {
+        id: 5,
+        name: 'Kupfert & Kim',
+        rating: '4.3',
+        location: 'https://maps.app.goo.gl/pmtG3qtZBKsEpEPr9',
+        delivery: true,
+        ubereats: '',
+        doordash: 'https://www.doordash.com/store/kupfert-&-kim-toronto-314306/?utm_campaign=gpa',
+        website: 'http://www.kupfertandkim.com/'
+    },
+    {
+        id: 6,
+        name: 'Basil Box',
+        rating: '4.8',
+        location: 'https://maps.app.goo.gl/unAEt34k869YnxMq5',
+        delivery: true,
+        ubereats: '',
+        doordash: 'https://www.doordash.com/store/basil-box-toronto-843946/?utm_campaign=gpa',
+        website: 'http://www.thebasilbox.com/'
+    },
+    {
+        id: 7,
+        name: 'Imperfect Fresh Eats',
+        rating: '4.6',
+        location: 'https://maps.app.goo.gl/8w97547MMK53jiih9',
+        delivery: true,
+        ubereats: 'https://www.ubereats.com/ca/store/imperfect-fresh-eats/WxWHfcb0RuS0rQyOBzz8VA?diningMode=DELIVERY&pl=JTdCJTIyYWRkcmVzcyUyMiUzQSUyMjEyMCUyMFBhcmxpYW1lbnQlMjBTdCUyMiUyQyUyMnJlZmVyZW5jZSUyMiUzQSUyMmYwNWFkMTkyLWM4MzktNDkyZi03NWE0LTI4NGIxZDNjMGMwNiUyMiUyQyUyMnJlZmVyZW5jZVR5cGUlMjIlM0ElMjJ1YmVyX3BsYWNlcyUyMiUyQyUyMmxhdGl0dWRlJTIyJTNBNDMuNjUzODgxNyUyQyUyMmxvbmdpdHVkZSUyMiUzQS03OS4zNjQwMDQ3JTdE&utm_campaign=place-action-link&utm_medium=organic&utm_source=google',
+        doordash: '',
+        website: 'http://www.imperfectfresheats.com/'
+    },
+    {
+        id: 8,
+        name: 'Mandy\'s - Liberty Village',
+        rating: '4.4',
+        location: 'https://maps.app.goo.gl/VV8rKJ2SuduSgv6B9',
+        delivery: true,
+        ubereats: 'https://www.ubereats.com/ca/store/mandys-liberty-village/7bYKd16LUQ6j7o3QuInPcw?diningMode=DELIVERY&pl=JTdCJTIyYWRkcmVzcyUyMiUzQSUyMjEyMCUyMFBhcmxpYW1lbnQlMjBTdCUyMiUyQyUyMnJlZmVyZW5jZSUyMiUzQSUyMmYwNWFkMTkyLWM4MzktNDkyZi03NWE0LTI4NGIxZDNjMGMwNiUyMiUyQyUyMnJlZmVyZW5jZVR5cGUlMjIlM0ElMjJ1YmVyX3BsYWNlcyUyMiUyQyUyMmxhdGl0dWRlJTIyJTNBNDMuNjUzODgxNyUyQyUyMmxvbmdpdHVkZSUyMiUzQS03OS4zNjQwMDQ3JTdE&utm_campaign=place-action-link&utm_medium=organic&utm_source=google',
+        doordash: '',
+        website: 'http://www.mandys.ca/order'
+    },
+    {
+        id: 9,
+        name: 'iQ',
+        rating: '4.2',
+        location: 'https://maps.app.goo.gl/a19cb5CVDa5KBTQf9',
+        delivery: true,
+        ubereats: 'https://www.ubereats.com/ca/store/iq-food-co-brookfield/YM-BMzn8UUuIgPPUfR4rcA?diningMode=DELIVERY&pl=JTdCJTIyYWRkcmVzcyUyMiUzQSUyMjEyMCUyMFBhcmxpYW1lbnQlMjBTdCUyMiUyQyUyMnJlZmVyZW5jZSUyMiUzQSUyMmYwNWFkMTkyLWM4MzktNDkyZi03NWE0LTI4NGIxZDNjMGMwNiUyMiUyQyUyMnJlZmVyZW5jZVR5cGUlMjIlM0ElMjJ1YmVyX3BsYWNlcyUyMiUyQyUyMmxhdGl0dWRlJTIyJTNBNDMuNjUzODgxNyUyQyUyMmxvbmdpdHVkZSUyMiUzQS03OS4zNjQwMDQ3JTdE&utm_campaign=place-action-link&utm_medium=organic&utm_source=google',
+        doordash: 'https://www.doordash.com/store/iq-food-co-toronto-24773663/?utm_campaign=gpa',
+        website: 'http://www.iqfoodco.com/'
+    },
+    {
+        id: 10,
+        name: 'Freshii',
+        rating: '4.3',
+        location: 'https://maps.app.goo.gl/1YjHaEk7qMtEYF3b9',
+        delivery: true,
+        ubereats: 'https://www.ubereats.com/ca/store/freshii-college-park/ZHvoC97bQEi6Z6pRESZ2Ew?diningMode=DELIVERY&pl=JTdCJTIyYWRkcmVzcyUyMiUzQSUyMjEyMCUyMFBhcmxpYW1lbnQlMjBTdCUyMiUyQyUyMnJlZmVyZW5jZSUyMiUzQSUyMmYwNWFkMTkyLWM4MzktNDkyZi03NWE0LTI4NGIxZDNjMGMwNiUyMiUyQyUyMnJlZmVyZW5jZVR5cGUlMjIlM0ElMjJ1YmVyX3BsYWNlcyUyMiUyQyUyMmxhdGl0dWRlJTIyJTNBNDMuNjUzODgxNyUyQyUyMmxvbmdpdHVkZSUyMiUzQS03OS4zNjQwMDQ3JTdE&utm_campaign=place-action-link&utm_medium=organic&utm_source=google',
+        doordash: 'https://www.doordash.com/store/freshii-toronto-1009429/?cursor=eyJzdG9yZV92ZXJ0aWNhbF9pZCI6bnVsbCwic2VhcmNoX2l0ZW1fY2Fyb3VzZWxfY3Vyc29yIjp7InF1ZXJ5IjoiZnJlc2hpaSIsIml0ZW1faWRzIjpbXSwic2VhcmNoX3Rlcm0iOiJmcmVzaGlpIiwidmVydGljYWxfaWQiOi05OTksInZlcnRpY2FsX25hbWUiOiJhbGwifSwic3RvcmVfcHJpbWFyeV92ZXJ0aWNhbF9pZHMiOlsxXSwiaXNfc2libGluZyI6ZmFsc2UsImZvcmNlX3N0b3JlX2F2YWlsYWJpbGl0eV92MiI6ZmFsc2UsImJ1bmRsZV9nbG9iYWxfc2VhcmNoX2NvbnRleHQiOm51bGx9&pickup=false',
+        website: 'https://freshii.com/locations/ca/collegepark/'
+    },
+]
+
+const finedining = [
+    {
+        id: 1,
+        name: 'Alo',
+        rating: '4.6',
+        location: 'https://maps.app.goo.gl/6LZ1BRs6nkLRT2iS9',
+        reservation: true,
+        booking: 'https://www.exploretock.com/alorestaurant/',
+        website: 'https://alorestaurant.com/'
+    },
+    {
+        id: 2,
+        name: 'Akira Back',
+        rating: '4.4',
+        location: 'https://maps.app.goo.gl/X5ZM3z3m1MNPkVbZA',
+        reservation: true,
+        booking: 'https://akirabacktoronto.com/contact/',
+        website: 'http://www.akirabacktoronto.com/'
+    },
+    {
+        id: 3,
+        name: 'GEORGE Restaurant',
+        rating: '4.6',
+        location: 'https://maps.app.goo.gl/ENBgvrBg3Bg1UhTn9',
+        reservation: true,
+        booking: 'https://www.opentable.ca/george-restaurant?ref=16423',
+        website: 'http://www.georgeonqueen.com/'
+    },
+    {
+        id: 4,
+        name: 'Canoe',
+        rating: '4.5',
+        location: 'https://maps.app.goo.gl/adLsAohnnHBLXdwV7',
+        reservation: true,
+        booking: 'https://www.opentable.ca/canoe-restaurant-and-bar?ref=16423',
+        website: 'http://www.canoerestaurant.com/'
+    },
+    {
+        id: 5,
+        name: 'Harbour 60 Toronto',
+        rating: '4.4',
+        location: 'https://maps.app.goo.gl/cPcaLmUSWMygGgfT7',
+        reservation: true,
+        booking: 'https://www.opentable.ca/harbour-sixty?ref=16423',
+        website: 'http://www.harbour60.com/'
+    },
+    {
+        id: 6,
+        name: 'Don Alfonso 1890',
+        rating: '4.4',
+        location: 'https://maps.app.goo.gl/ubW5bcZj6pxVSiUi7',
+        reservation: true,
+        booking: 'https://www.opentable.ca/r/don-alfonso-1890-toronto?ref=16423',
+        website: 'https://www.donalfonsotoronto.com/?utm_source=google&utm_medium=organic&utm_campaign=local&utm_content=Toronto'
+    },
+    {
+        id: 7,
+        name: 'Aburi Hana',
+        rating: '4.7',
+        location: 'https://maps.app.goo.gl/Yif59EnFWCEYQZ6Q6',
+        reservation: true,
+        booking: 'https://www.exploretock.com/aburihana/',
+        website: 'http://aburihana.com/'
+    },
+    {
+        id: 8,
+        name: 'Edulis Restaurant',
+        rating: '4.7',
+        location: 'https://maps.app.goo.gl/upiiAb2SuKrxomM26',
+        reservation: true,
+        booking: 'https://www.exploretock.com/edulis/',
+        website: 'http://www.edulisrestaurant.com/'
+    },
+    {
+        id: 9,
+        name: 'Kaiseki Yu-zen Hashimoto Restaurant',
+        rating: '4.8',
+        location: 'https://maps.app.goo.gl/Ak9NsbZj9mFU1bUQ9',
+        reservation: true,
+        booking: 'https://www.exploretock.com/kaiseki-yu-zen-hashimoto/',
+        website: 'https://www.kaiseki.ca/'
+    },
+    {
+        id: 10,
+        name: 'Osteria Giulia',
+        rating: '4.5',
+        location: 'https://maps.app.goo.gl/Ta9HAtArVDoQvEUo8',
+        reservation: true,
+        booking: 'https://www.opentable.ca/r/osteria-giulia-toronto?ref=16423',
+        website: 'http://osteriagiulia.ca/'
+    }
+]
+
+const romantic = [
+    {
+        id: 1,
+        name: 'Grey Gardens',
+        rating: '4.6',
+        location: 'https://maps.app.goo.gl/Mxdecfzr67tqCyVr6',
+        reservation: true,
+        booking: 'https://www.opentable.ca/r/grey-gardens-toronto?ref=16423',
+        website: 'http://greygardens.ca/'
+    },
+    {
+        id: 2,
+        name: 'Le Sélect Bistro',
+        rating: '4.5',
+        location: 'https://maps.app.goo.gl/gghDZEJ1KhwkDkqs6',
+        reservation: true,
+        booking: 'https://www.opentable.ca/r/le-select-bistro-toronto?ref=16423',
+        website: 'http://www.leselectbistro.com/'
+    },
+    {
+        id: 3,
+        name: 'Bar Isabel',
+        rating: '4.5',
+        location: 'https://maps.app.goo.gl/49W98dkcY3Uk58Um6',
+        reservation: true,
+        booking: 'https://barisabel.com/reserve/',
+        website: 'http://barisabel.com/'
+    },
+    {
+        id: 4,
+        name: 'Baro',
+        rating: '4.3',
+        location: 'https://maps.app.goo.gl/ypFgYvrcDWxBYPEM9',
+        reservation: true,
+        booking: 'https://www.opentable.ca/r/baro-toronto?ref=16423',
+        website: 'http://barotoronto.com/'
+    },
+    {
+        id: 5,
+        name: 'Casa Madera',
+        rating: '4.3',
+        location: 'https://maps.app.goo.gl/YJWoUAtF1bpQ73bUA',
+        reservation: true,
+        booking: 'https://www.sevenrooms.com/reservations/casamadera',
+        website: 'https://www.1hotels.com/toronto/taste/casa-madera?utm_source=google-gbp&utm_medium=organic&utm_campaign=gbp'
+    },
+    {
+        id: 6,
+        name: 'Minami Toronto',
+        rating: '4.4',
+        location: 'https://maps.app.goo.gl/xaBJTDK4UkvB7iWx6',
+        reservation: true,
+        booking: 'https://www.opentable.ca/r/minami-restaurant-toronto?ref=16423',
+        website: 'http://minamitoronto.com/'
+    },
+    {
+        id: 7,
+        name: 'Byblos Downtown',
+        rating: '4.5',
+        location: 'https://maps.app.goo.gl/eHnS1GaFm7kJq7Rz7',
+        reservation: true,
+        booking: 'https://www.opentable.ca/restref/client/?restref=112777&lang=en-CA&ot_source=Restaurant%20website&corrid=6df5770a-8882-44c9-9eb1-3705a4817ddd',
+        website: 'https://byblosdowntown.com/'
+    },
+    {
+        id: 8,
+        name: 'J\'s Steak Frites',
+        rating: '4.6',
+        location: 'https://maps.app.goo.gl/RGepNcE6Efu3qhQK9',
+        reservation: true,
+        booking: 'https://www.opentable.ca/r/js-steak-frites-toronto?ref=16423',
+        website: 'https://jssteakfrites.ca/'
+    },
+    {
+        id: 9,
+        name: 'Hy\'s Steakhouse & Cocktail Bar',
+        rating: '4.5',
+        location: 'https://maps.app.goo.gl/Pkik22ionsRUhkzF6',
+        reservation: true,
+        booking: 'https://www.hyssteakhouse.com/reserve',
+        website: 'http://www.hyssteakhouse.com/'
+    },
+    {
+        id: 10,
+        name: '360 - The Restaurant at the CN Tower',
+        rating: '4.1',
+        location: 'https://maps.app.goo.gl/jsVZkaVAxDhVu934A',
+        reservation: true,
+        booking: 'https://www.sevenrooms.com/reservations/360Restaurant?_gl=1*1qcbd08*_ga*NjEyODM2MDM0LjE2OTU2NzEzMDE.*_ga_B77ELRE9WC*MTY5NTY3MTMwMC4xLjEuMTY5NTY3MTMyNS4zNS4wLjA.',
+        website: 'https://www.cntower.ca/dine-at-360-restaurant/overview'
+    }
+]
+
+const vegans = [
+    {
+        id: 1,
+        name: 'PLANTA Queen',
+        rating: '4.5',
+        location: 'https://maps.app.goo.gl/zJQMVseDRG12PfVE9',
+        delivery: true,
+        ubereats: 'https://www.ubereats.com/ca/store/planta-queen/Q1f1Ml5UQ3awzFHmSW_FYg?diningMode=DELIVERY&pl=JTdCJTIyYWRkcmVzcyUyMiUzQSUyMjEyMCUyMFBhcmxpYW1lbnQlMjBTdCUyMiUyQyUyMnJlZmVyZW5jZSUyMiUzQSUyMmYwNWFkMTkyLWM4MzktNDkyZi03NWE0LTI4NGIxZDNjMGMwNiUyMiUyQyUyMnJlZmVyZW5jZVR5cGUlMjIlM0ElMjJ1YmVyX3BsYWNlcyUyMiUyQyUyMmxhdGl0dWRlJTIyJTNBNDMuNjUzODgxNyUyQyUyMmxvbmdpdHVkZSUyMiUzQS03OS4zNjQwMDQ3JTdE&utm_campaign=place-action-link&utm_medium=organic&utm_source=google',
+        doordash: 'https://www.doordash.com/store/planta-queen-toronto-714658/?utm_campaign=gpa',
+        website: 'https://www.plantarestaurants.com/location/planta-queen-yorkville/'
+    },
+    {
+        id: 2,
+        name: 'Fresh Kitchen + Juice Bar Eglinton',
+        rating: '4.4',
+        location: 'https://maps.app.goo.gl/MkSbZFGo6xUak7W36',
+        delivery: true,
+        ubereats: 'https://www.ubereats.com/ca/store/fresh-kitchen-%2B-juice-bar-on-eglinton/UAoAH3ejR4e2EDmJfZcgbA?diningMode=DELIVERY&pl=JTdCJTIyYWRkcmVzcyUyMiUzQSUyMjEyMCUyMFBhcmxpYW1lbnQlMjBTdCUyMiUyQyUyMnJlZmVyZW5jZSUyMiUzQSUyMmYwNWFkMTkyLWM4MzktNDkyZi03NWE0LTI4NGIxZDNjMGMwNiUyMiUyQyUyMnJlZmVyZW5jZVR5cGUlMjIlM0ElMjJ1YmVyX3BsYWNlcyUyMiUyQyUyMmxhdGl0dWRlJTIyJTNBNDMuNjUzODgxNyUyQyUyMmxvbmdpdHVkZSUyMiUzQS03OS4zNjQwMDQ3JTdE&utm_campaign=place-action-link&utm_medium=organic&utm_source=google',
+        doordash: 'https://www.doordash.com/store/fresh:-kitchen-+-juice-bar-toronto-152774/?utm_campaign=gpa',
+        website: 'https://www.freshkitchens.ca/en/locations/on/toronto/101-eglinton-avenue-east'
+    },
+    {
+        id: 3,
+        name: 'Rosalinda Restaurant',
+        rating: '4.3',
+        location: 'https://maps.app.goo.gl/DEZR8CnWuxo9bjMt6',
+        delivery: true,
+        ubereats: 'https://www.ubereats.com/ca/store/rosalinda/xRl1pxRZXAqof-zrbVV2JQ?diningMode=DELIVERY&pl=JTdCJTIyYWRkcmVzcyUyMiUzQSUyMjEyMCUyMFBhcmxpYW1lbnQlMjBTdCUyMiUyQyUyMnJlZmVyZW5jZSUyMiUzQSUyMmYwNWFkMTkyLWM4MzktNDkyZi03NWE0LTI4NGIxZDNjMGMwNiUyMiUyQyUyMnJlZmVyZW5jZVR5cGUlMjIlM0ElMjJ1YmVyX3BsYWNlcyUyMiUyQyUyMmxhdGl0dWRlJTIyJTNBNDMuNjUzODgxNyUyQyUyMmxvbmdpdHVkZSUyMiUzQS03OS4zNjQwMDQ3JTdE&ps=1&utm_campaign=place-action-link&utm_medium=organic&utm_source=google',
+        doordash: '',
+        website: 'http://rosalindarestaurant.com/'
+    },
+    {
+        id: 4,
+        name: 'Parka Food Co.',
+        rating: '4.5',
+        location: 'https://maps.app.goo.gl/P5F5HdQM4gpjvAuf9',
+        delivery: true,
+        ubereats: 'https://www.ubereats.com/ca/store/parka-food-co/i5gWFaC0QQWzLunfo4TXKg?diningMode=DELIVERY&ps=1&sc=SEARCH_SUGGESTION',
+        doordash: 'https://www.doordash.com/store/parka-food-co.-toronto-348101/?event_type=autocomplete&pickup=false',
+        website: 'https://www.parkafoodco.com/'
+    },
+    {
+        id: 5,
+        name: 'Pizzeria Du',
+        rating: '4.6',
+        location: 'https://maps.app.goo.gl/NraVVdvnEUsaB1PW7',
+        delivery: false,
+        ubereats: '',
+        doordash: '',
+        website: 'http://www.pizzeriadu.ca/'
+    },
+    {
+        id: 6,
+        name: 'Copper Branch',
+        rating: '4.7',
+        location: 'https://maps.app.goo.gl/3ebYbDDWk4hAM8YX8',
+        delivery: true,
+        ubereats: 'https://www.ubereats.com/ca/store/copper-branch-thornhill/TSW8X_Y4Sja0r_Bsma0TeA?diningMode=DELIVERY&pl=JTdCJTIyYWRkcmVzcyUyMiUzQSUyMjEyMCUyMFBhcmxpYW1lbnQlMjBTdCUyMiUyQyUyMnJlZmVyZW5jZSUyMiUzQSUyMmYwNWFkMTkyLWM4MzktNDkyZi03NWE0LTI4NGIxZDNjMGMwNiUyMiUyQyUyMnJlZmVyZW5jZVR5cGUlMjIlM0ElMjJ1YmVyX3BsYWNlcyUyMiUyQyUyMmxhdGl0dWRlJTIyJTNBNDMuNjUzODgxNyUyQyUyMmxvbmdpdHVkZSUyMiUzQS03OS4zNjQwMDQ3JTdE&utm_campaign=place-action-link&utm_medium=organic&utm_source=google',
+        doordash: 'https://www.doordash.com/store/copper-branch-vaughan-655048/?utm_campaign=gpa',
+        website: 'https://eatcopperbranch.com/'
+    },
+    {
+        id: 7,
+        name: 'Buddha\'s Vegan Restaurant',
+        rating: '4.6',
+        location: 'https://maps.app.goo.gl/yyVJsxnEJdQHkvvf7',
+        delivery: true,
+        ubereats: 'https://www.ubereats.com/ca/feed?diningMode=DELIVERY&pl=JTdCJTIyYWRkcmVzcyUyMiUzQSUyMjEyMCUyMFBhcmxpYW1lbnQlMjBTdCUyMiUyQyUyMnJlZmVyZW5jZSUyMiUzQSUyMmYwNWFkMTkyLWM4MzktNDkyZi03NWE0LTI4NGIxZDNjMGMwNiUyMiUyQyUyMnJlZmVyZW5jZVR5cGUlMjIlM0ElMjJ1YmVyX3BsYWNlcyUyMiUyQyUyMmxhdGl0dWRlJTIyJTNBNDMuNjUzODgxNyUyQyUyMmxvbmdpdHVkZSUyMiUzQS03OS4zNjQwMDQ3JTdE',
+        doordash: 'https://www.doordash.com/store/buddha\'s-vegan-restaurant-toronto-30282/?utm_campaign=gpa',
+        website: 'http://www.buddharestaurant.ca/'
+    },
+    {
+        id: 8,
+        name: 'Hawker',
+        rating: '4.8',
+        location: 'https://maps.app.goo.gl/xPTtcHJvubJGpDvv5',
+        delivery: true,
+        ubereats: '',
+        doordash: 'https://www.doordash.com/store/hawker-toronto-24825175/?event_type=autocomplete&pickup=false',
+        website: 'http://hawker.to/'
+    },
+    {
+        id: 9,
+        name: 'Vegan Danish Bakery on Queen',
+        rating: '4.7',
+        location: 'https://maps.app.goo.gl/57ByDHPAk9heXB568',
+        delivery: true,
+        ubereats: 'https://www.ubereats.com/ca/store/vegan-danish-bakery/QWwcZ_sIQuCAOKr6LXppmw?diningMode=DELIVERY&pl=JTdCJTIyYWRkcmVzcyUyMiUzQSUyMjEyMCUyMFBhcmxpYW1lbnQlMjBTdCUyMiUyQyUyMnJlZmVyZW5jZSUyMiUzQSUyMmYwNWFkMTkyLWM4MzktNDkyZi03NWE0LTI4NGIxZDNjMGMwNiUyMiUyQyUyMnJlZmVyZW5jZVR5cGUlMjIlM0ElMjJ1YmVyX3BsYWNlcyUyMiUyQyUyMmxhdGl0dWRlJTIyJTNBNDMuNjUzODgxNyUyQyUyMmxvbmdpdHVkZSUyMiUzQS03OS4zNjQwMDQ3JTdE&ps=1&utm_campaign=place-action-link&utm_medium=organic&utm_source=google',
+        doordash: '',
+        website: 'http://www.vegandanishbakery.com/'
+    },
+    {
+        id: 10,
+        name: 'Kupfert & Kim',
+        rating: '4.3',
+        location: 'https://maps.app.goo.gl/pmtG3qtZBKsEpEPr9',
+        delivery: true,
+        ubereats: '',
+        doordash: 'https://www.doordash.com/store/kupfert-&-kim-toronto-314306/?utm_campaign=gpa',
+        website: 'http://www.kupfertandkim.com/'
+    },
+]
+
+export { italians, coffees, pizzas, burgers, bars, bakeries, breakfast, healthy, finedining, romantic, vegans };

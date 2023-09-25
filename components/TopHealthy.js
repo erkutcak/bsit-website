@@ -1,9 +1,12 @@
-import { italians } from '@/constants'
+import { healthy } from '@/constants'
+import Image from 'next/image'
 import React from 'react'
+import ubereats from '../public/ubereats.png'
+import doordash from '../public/doordash.png'
 
-const TopItalians = () => {
+const TopHealthy = () => {
 
-    const displaySpots = italians.map((restaurant) => (
+    const displaySpots = healthy.map((restaurant) => (
         <li className='my-4 flex-column' key={restaurant.id}>
             <h2 className="flex-shrink border-b border-gray-300 font-bitter text-xl">{restaurant.name}</h2>
             <div className='flex items-center mt-2 flex-wrap justify-around'>
@@ -19,22 +22,41 @@ const TopItalians = () => {
                 <button className='font-bitter px-3 py-2 text-xs font-medium text-center text-white bg-[#A67DB8] rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800'>
                     <a href={restaurant.website}>Website</a>
                 </button>
-                {restaurant.reservation ? 
-                <button className='font-bitter w-[77px] px-1 py-2 text-xs font-medium text-center text-white bg-[#86C987] rounded-lg hover:bg-green-800 focus:ring-4 focus:outline-none focus:ring-green-300 dark:bg-green-600 dark:hover:bg-green-700 dark:focus:ring-green-800'>
-                    <a href={restaurant.booking}>Book Now!</a> 
-                </button>
-                    : 
-                    <p className=' w-[77px] font-bitter px-3 py-2 text-xs font-medium text-center text-white bg-[#A67DB8] rounded-lg hover:bg-gray-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-gray-500 dark:hover:bg-gray-700 dark:focus:ring-blue-800'>Walk-in</p>}
+                {
+                restaurant.delivery && restaurant.ubereats && (
+                    <button>
+                    <a href={restaurant.ubereats} className='flex justify-center'>
+                        <Image src={ubereats} className='h-8 w-8 rounded' alt='ubereats'/>
+                    </a>
+                    </button>
+                )
+                }
+
+                {
+                restaurant.delivery && restaurant.doordash && (
+                    <button>
+                    <a href={restaurant.doordash} className='flex justify-center'>
+                        <Image src={doordash} className='h-8 w-8 rounded' alt='doordash'/>
+                    </a>
+                    </button>
+                )
+                }
+
+                {
+                !restaurant.delivery && (
+                    <p className=' w-[77px] font-bitter px-3 py-2 text-xs font-medium text-center text-white bg-[#A67DB8] rounded-lg hover:bg-[#A67DB8] focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-gray-500 dark:hover:bg-gray-700 dark:focus:ring-blue-800'>Walk-in</p>
+                )
+                }
             </div>
         </li>
     ))
 
     return (
         <ul className='bg-white/[.8] mx-8 my-4 px-7 py-[4px] rounded-lg list-decimal'>
-            {/* <h2 className='text-2xl mb-4 text-center'>🇮🇹 Top 10 Italian Spots 🇮🇹</h2> */}
+            {/* <h2 className='text-2xl mb-4 text-center'>🍕 Top 10 Pizza Spots 🍕</h2> */}
             {displaySpots}
         </ul>
     )
 }
 
-export default TopItalians;
+export default TopHealthy;

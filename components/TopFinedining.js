@@ -1,9 +1,9 @@
-import { italians } from '@/constants'
+import { finedining } from '@/constants'
 import React from 'react'
 
-const TopItalians = () => {
+const TopFinedining = () => {
 
-    const displaySpots = italians.map((restaurant) => (
+    const displaySpots = finedining.map((restaurant) => (
         <li className='my-4 flex-column' key={restaurant.id}>
             <h2 className="flex-shrink border-b border-gray-300 font-bitter text-xl">{restaurant.name}</h2>
             <div className='flex items-center mt-2 flex-wrap justify-around'>
@@ -37,4 +37,4 @@ const TopItalians = () => {
     )
 }
 
-export default TopItalians;
+export default TopFinedining;
