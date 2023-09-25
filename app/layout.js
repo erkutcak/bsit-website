@@ -2,6 +2,7 @@ import Navbar from '@/components/Navbar'
 import './globals.css'
 import { Inter } from 'next/font/google'
 import Provider from '@/components/Provider'
+import Footer from '@/components/Footer'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -13,10 +14,11 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className="bg-cover bg-inherit h-screen bg-custom">
+      <body className="bg-cover bg-inherit bg-custom flex flex-col min-h-screen">
         <Provider>
-          <Navbar/>
-          {children}
+          <Navbar />
+          <main className="flex-grow">{children}</main>
+          <Footer />
         </Provider>
       </body>
     </html>
