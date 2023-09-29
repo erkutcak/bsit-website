@@ -12,8 +12,6 @@ import TopPizzas from "@/components/TopPizzas"
 import TopRomantic from "@/components/TopRomantic"
 import TopVegans from "@/components/TopVegans"
 
-import italian from "@/public/italian.png"
-
 import {
   Accordion,
   AccordionContent,
