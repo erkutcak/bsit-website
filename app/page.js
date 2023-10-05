@@ -5,6 +5,7 @@ import TopBars from "@/components/TopBars"
 import TopBreakfast from "@/components/TopBreakfast"
 import TopBurgers from "@/components/TopBurgers"
 import TopCoffees from "@/components/TopCoffees"
+import TopDishes from "@/components/TopDishes"
 import TopFinedining from "@/components/TopFinedining"
 import TopHealthy from "@/components/TopHealthy"
 import TopItalians from "@/components/TopItalians"
@@ -110,6 +111,14 @@ export default function Home() {
           </AccordionTrigger>
           <AccordionContent>
             <TopVegans />
+          </AccordionContent>
+        </AccordionItem>
+        <AccordionItem value="item-12">
+          <AccordionTrigger className="px-4 font-bitter font-black text-[#15003F] text-lg bg-white/[.9] rounded-xl my-1 shadow-xl">
+          Top 10 Dishes 🥘
+          </AccordionTrigger>
+          <AccordionContent>
+            <TopDishes />
           </AccordionContent>
         </AccordionItem>
       </Accordion>
