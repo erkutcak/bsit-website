@@ -25,7 +25,7 @@ export default function Home() {
     <div className="md:flex md:text-center md:items-center md:justify-center">
       <Accordion type="single" collapsible className="md:flex md:flex-col md:justify-center md:items-stretch md:w-[65%] my-4 mx-2">
         <AccordionItem value="item-1">
-          <AccordionTrigger className="px-4 font-bitter font-black text-[#15003F] text-lg bg-italian bg-contain rounded-xl my-1 shadow-xl">
+          <AccordionTrigger className="px-4 font-bitter font-black text-[#15003F] text-lg bg-white/[.9] rounded-xl my-1 shadow-xl">
           Top 10 Italian Spots 🇮🇹
           </AccordionTrigger>
           <AccordionContent className="w-full">

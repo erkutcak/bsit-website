@@ -6,7 +6,8 @@ const italians = [
         location: 'https://goo.gl/maps/miCqgVCPDKRvsgpr7',
         reservation: false,
         booking: '',
-        website: 'http://sugotoronto.com'
+        website: 'http://sugotoronto.com',
+        background: 'sugo.png'
     },
     {
         id: 2,
@@ -15,7 +16,8 @@ const italians = [
         location: 'https://goo.gl/maps/pspzBWrinEvbxqqZ9',
         reservation: true,
         booking: 'https://www.opentable.ca/enoteca-sociale?ref=16423',
-        website: 'https://sociale.ca'
+        website: 'https://sociale.ca',
+        background: 'enoteca.png'
     },
     {
         id: 3,
@@ -24,7 +26,8 @@ const italians = [
         location: 'https://goo.gl/maps/fm46oPQiWvkSNZvA9',
         reservation: false,
         booking: '',
-        website: 'http://famigliabaldassarre.com'
+        website: 'http://famigliabaldassarre.com',
+        background: 'famiglia.png'
     },
     {
         id: 4,
@@ -33,7 +36,8 @@ const italians = [
         location: 'https://goo.gl/maps/fB3LtPH4EM2vsFJB7',
         reservation: true,
         booking: 'https://www.opentable.ca/r/viaggio-toronto?ref=16423',
-        website: 'http://viaggiorestaurant.ca/'
+        website: 'http://viaggiorestaurant.ca/',
+        background: 'viaggio.png'
     },
     {
         id: 5,
@@ -42,7 +46,8 @@ const italians = [
         location: 'https://goo.gl/maps/ePgCnet3L79oiP3EA',
         reservation: true,
         booking: 'https://www.opentable.ca/r/gusto-501-toronto?ref=16423',
-        website: 'https://gusto501.com/'
+        website: 'https://gusto501.com/',
+        background: 'gusto501.png'
     },
     {
         id: 6,
@@ -51,7 +56,8 @@ const italians = [
         location: 'https://goo.gl/maps/ZSb5Nrwm5YVxywme9',
         reservation: true,
         booking: 'https://www.opentable.ca/r/don-alfonso-1890-toronto?ref=16423',
-        website: 'https://www.donalfonsotoronto.com/'
+        website: 'https://www.donalfonsotoronto.com/',
+        background: 'donalfonso.png'
     },
     {
         id: 7,
@@ -60,7 +66,8 @@ const italians = [
         location: 'https://goo.gl/maps/ss6g7R9RQkPBWvMGA',
         reservation: true,
         booking: 'https://www.opentable.ca/r/la-pizza-and-la-pasta-eataly-toronto?ref=16423',
-        website: 'https://eataly.ca'
+        website: 'https://eataly.ca',
+        background: 'eataly.png'
     },
     {
         id: 8,
@@ -69,7 +76,8 @@ const italians = [
         location: 'https://goo.gl/maps/bzgS2PfZ1HP4LDBL7',
         reservation: true,
         booking: 'https://www.pianopianotherestaurant.com/reservations/',
-        website: 'https://www.pianopianotherestaurant.com/'
+        website: 'https://www.pianopianotherestaurant.com/',
+        background: 'piano.png'
     },
     {
         id: 9,
@@ -78,7 +86,8 @@ const italians = [
         location: 'https://goo.gl/maps/V1KhkdAKSWXf3thU6',
         reservation: false,
         booking: '',
-        website: 'https://www.pizzerialibretto.com/'
+        website: 'https://www.pizzerialibretto.com/',
+        background: 'libretto.png'
     },
     {
         id: 10,
@@ -87,7 +96,8 @@ const italians = [
         location: 'https://goo.gl/maps/uir6UuVNk28U1pYr6',
         reservation: true,
         booking: 'https://www.tbdine.com/book/restaurant/the-old-spaghetti-factory?idApp=2016&language=en',
-        website: 'https://oldspaghettifactory.ca/'
+        website: 'https://oldspaghettifactory.ca/',
+        background: 'oldspa.png'
     }
 ]
 
@@ -100,7 +110,8 @@ const coffees = [
         delivery: false,
         ubereats: '',
         doordash: '',
-        website: 'https://arabicacanada.coffee/'
+        website: 'https://arabicacanada.coffee/',
+        background: 'arabica.png'
     },
     {
         id: 2,
@@ -110,7 +121,8 @@ const coffees = [
         delivery: true,
         ubereats: 'https://www.ubereats.com/ca/store/dark-horse-espresso-bar-spadina/58IQmiRPTEmMjfnyeYtAGw?diningMode=DELIVERY&ps=1&sc=SEARCH_SUGGESTION',
         doordash: '',
-        website: 'https://www.darkhorseespresso.com/'
+        website: 'https://www.darkhorseespresso.com/',
+        background:'dark.png'
     },
     {
         id: 3,
@@ -120,7 +132,8 @@ const coffees = [
         delivery: false,
         ubereats: '',
         doordash: '',
-        website: 'http://roostercoffeehouse.com/'
+        website: 'http://roostercoffeehouse.com/',
+        background:'rooster.png'
     },
     {
         id: 4,
@@ -130,7 +143,8 @@ const coffees = [
         delivery: false,
         ubereats: '',
         doordash: '',
-        website: 'http://www.jimmyscoffee.ca/'
+        website: 'http://www.jimmyscoffee.ca/',
+        background:'jimmy.png'
     },
     {
         id: 5,
@@ -140,7 +154,8 @@ const coffees = [
         delivery: false,
         ubereats: '',
         doordash: '',
-        website: 'https://www.instagram.com/shycoffeeco'
+        website: 'https://www.instagram.com/shycoffeeco',
+        background:'shy.png'
     },
     {
         id: 6,
@@ -150,7 +165,8 @@ const coffees = [
         delivery: false,
         ubereats: '',
         doordash: '',
-        website: 'https://www.pilotcoffeeroasters.com/'
+        website: 'https://www.pilotcoffeeroasters.com/',
+        background:'pilot.png'
     },
     {
         id: 7,
@@ -160,7 +176,8 @@ const coffees = [
         delivery: true,
         ubereats: 'https://www.ubereats.com/ca/store/neo-coffee-bar-frederick-x-king/reokXb-zS0aYnA7dTqJ6ag?diningMode=DELIVERY&sc=SEARCH_SUGGESTION',
         doordash: '',
-        website: 'http://www.neocoffeebar.com/'
+        website: 'http://www.neocoffeebar.com/',
+        background:'neo.png'
     },
     {
         id: 8,
@@ -170,7 +187,8 @@ const coffees = [
         delivery: false,
         ubereats: '',
         doordash: '',
-        website: 'https://www.found.coffee/'
+        website: 'https://www.found.coffee/',
+        background:'found.png'
     },
     {
         id: 9,
@@ -180,7 +198,8 @@ const coffees = [
         delivery: true,
         ubereats: '',
         doordash: 'https://www.doordash.com/en-CA/store/fahrenheit-coffee-toronto-306075/?event_type=autocomplete&pickup=false',
-        website: 'http://www.fahrenheitcoffee.com/'
+        website: 'http://www.fahrenheitcoffee.com/',
+        background:'fahrenheit.png'
     },
     {
         id: 10,
@@ -190,7 +209,8 @@ const coffees = [
         delivery: true,
         ubereats: 'https://www.ubereats.com/ca/store/forget-me-not-cafe-adelaide/EvfD2wwUTGm2j6RtivXYTQ?diningMode=DELIVERY',
         doordash: '',
-        website: 'https://www.forgetmenotcoffee.ca/'
+        website: 'https://www.forgetmenotcoffee.ca/',
+        background:'forget.png'
     }
 ]
 
@@ -203,7 +223,8 @@ const pizzas = [
         delivery: false,
         ubereats: '',
         doordash: '',
-        website: 'https://pizzeriabadiali.com/'
+        website: 'https://pizzeriabadiali.com/',
+        background: 'badiali.png'
     },
     {
         id: 2,
@@ -213,7 +234,8 @@ const pizzas = [
         delivery: true,
         ubereats: 'https://www.ubereats.com/ca/store/north-of-brooklyn-pizzeria-the-village/G0uT8txjSRu4DL2DPWnsng?diningMode=DELIVERY&sc=SEARCH_SUGGESTION',
         doordash: 'https://www.doordash.com/en-CA/store/north-of-brooklyn-pizzeria-toronto-442764/?cursor=eyJzdG9yZV92ZXJ0aWNhbF9pZCI6bnVsbCwic2VhcmNoX2l0ZW1fY2Fyb3VzZWxfY3Vyc29yIjp7InF1ZXJ5Ijoibm9ydGggb2YgYnJvb2tseW4iLCJpdGVtX2lkcyI6W10sInNlYXJjaF90ZXJtIjoibm9ydGggYnJvb2tseW4iLCJ2ZXJ0aWNhbF9pZCI6LTk5OSwidmVydGljYWxfbmFtZSI6ImFsbCJ9LCJzdG9yZV9wcmltYXJ5X3ZlcnRpY2FsX2lkcyI6WzFdLCJpc19zaWJsaW5nIjpmYWxzZSwiZm9yY2Vfc3RvcmVfYXZhaWxhYmlsaXR5X3YyIjpmYWxzZSwiYnVuZGxlX2dsb2JhbF9zZWFyY2hfY29udGV4dCI6bnVsbH0=&pickup=false',
-        website: 'https://www.northofbrooklyn.com/'
+        website: 'https://www.northofbrooklyn.com/',
+        background: 'north.png'
     },
     {
         id: 3,
@@ -223,7 +245,8 @@ const pizzas = [
         delivery: true,
         ubereats: 'https://www.ubereats.com/ca/store/descendant-detroit-style-pizza/bfKXcwJWTxufS__c5E_q8w?diningMode=DELIVERY&pl=JTdCJTIyYWRkcmVzcyUyMiUzQSUyMjEyMCUyMFBhcmxpYW1lbnQlMjBTdCUyMiUyQyUyMnJlZmVyZW5jZSUyMiUzQSUyMmYwNWFkMTkyLWM4MzktNDkyZi03NWE0LTI4NGIxZDNjMGMwNiUyMiUyQyUyMnJlZmVyZW5jZVR5cGUlMjIlM0ElMjJ1YmVyX3BsYWNlcyUyMiUyQyUyMmxhdGl0dWRlJTIyJTNBNDMuNjUzODgxNyUyQyUyMmxvbmdpdHVkZSUyMiUzQS03OS4zNjQwMDQ3JTdE&utm_campaign=place-action-link&utm_medium=organic&utm_source=google',
         doordash: '',
-        website: 'https://descendantdsp.com/'
+        website: 'https://descendantdsp.com/',
+        background: 'descendant.png'
     },
     {
         id: 4,
@@ -233,7 +256,8 @@ const pizzas = [
         delivery: true,
         ubereats: 'https://www.ubereats.com/ca/store/the-fourth-man-in-the-fire/8IWEEz6gRluC_Uyjyo2w_A?diningMode=DELIVERY&pl=JTdCJTIyYWRkcmVzcyUyMiUzQSUyMjEyMCUyMFBhcmxpYW1lbnQlMjBTdCUyMiUyQyUyMnJlZmVyZW5jZSUyMiUzQSUyMmYwNWFkMTkyLWM4MzktNDkyZi03NWE0LTI4NGIxZDNjMGMwNiUyMiUyQyUyMnJlZmVyZW5jZVR5cGUlMjIlM0ElMjJ1YmVyX3BsYWNlcyUyMiUyQyUyMmxhdGl0dWRlJTIyJTNBNDMuNjUzODgxNyUyQyUyMmxvbmdpdHVkZSUyMiUzQS03OS4zNjQwMDQ3JTdE&utm_campaign=place-action-link&utm_medium=organic&utm_source=google',
         doordash: 'https://www.doordash.com/en-CA/store/fourth-man-in-the-fire-toronto-725968/?utm_campaign=gpa',
-        website: 'https://thefourthmaninthefirepizzeria.com/'
+        website: 'https://thefourthmaninthefirepizzeria.com/',
+        background: 'fourth.png'
     },
     {
         id: 5,
@@ -243,7 +267,8 @@ const pizzas = [
         delivery: true,
         ubereats: 'https://www.ubereats.com/ca/store/pizzeria-libretto-danforth/UDo2yaUVQam2laq7j78S7w?diningMode=DELIVERY&sc=SEARCH_SUGGESTION',
         doordash: 'https://www.doordash.com/en-CA/store/pizzeria-libretto-toronto-542372/?event_type=autocomplete&pickup=false',
-        website: 'https://www.pizzerialibretto.com/'
+        website: 'https://www.pizzerialibretto.com/',
+        background: 'libretto.png'
     },
     {
         id: 6,
@@ -253,7 +278,8 @@ const pizzas = [
         delivery: true,
         ubereats: 'https://www.ubereats.com/ca/store/maker-pizza-cameron/Y9bIrcEgS6a0MmXdDFjrug?diningMode=PICKUP&pl=JTdCJTIyYWRkcmVzcyUyMiUzQSUyMjEyMCUyMFBhcmxpYW1lbnQlMjBTdCUyMiUyQyUyMnJlZmVyZW5jZSUyMiUzQSUyMmYwNWFkMTkyLWM4MzktNDkyZi03NWE0LTI4NGIxZDNjMGMwNiUyMiUyQyUyMnJlZmVyZW5jZVR5cGUlMjIlM0ElMjJ1YmVyX3BsYWNlcyUyMiUyQyUyMmxhdGl0dWRlJTIyJTNBNDMuNjUzODgxNyUyQyUyMmxvbmdpdHVkZSUyMiUzQS03OS4zNjQwMDQ3JTdE&utm_campaign=place-action-link&utm_medium=organic&utm_source=google',
         doordash: '',
-        website: 'https://www.makerpizza.com/'
+        website: 'https://www.makerpizza.com/',
+        background: 'pizzamaker.png'
     },
     {
         id: 7,
@@ -263,7 +289,8 @@ const pizzas = [
         delivery: true,
         ubereats: 'https://www.ubereats.com/ca/store/blaze-pizza-10-dundas-st/GdyJIdmOVty0EAc_XAdTVA?diningMode=PICKUP&pl=JTdCJTIyYWRkcmVzcyUyMiUzQSUyMjEyMCUyMFBhcmxpYW1lbnQlMjBTdCUyMiUyQyUyMnJlZmVyZW5jZSUyMiUzQSUyMmYwNWFkMTkyLWM4MzktNDkyZi03NWE0LTI4NGIxZDNjMGMwNiUyMiUyQyUyMnJlZmVyZW5jZVR5cGUlMjIlM0ElMjJ1YmVyX3BsYWNlcyUyMiUyQyUyMmxhdGl0dWRlJTIyJTNBNDMuNjUzODgxNyUyQyUyMmxvbmdpdHVkZSUyMiUzQS03OS4zNjQwMDQ3JTdE&utm_campaign=place-action-link&utm_medium=organic&utm_source=google',
         doordash: 'https://www.doordash.com/en-CA/store/blaze-pizza-toronto-23046284/?utm_campaign=gpa',
-        website: 'https://www.blazepizza.com/'
+        website: 'https://www.blazepizza.com/',
+        background: 'blaze.png'
     },
     {
         id: 8,
@@ -273,7 +300,8 @@ const pizzas = [
         delivery: true,
         ubereats: '',
         doordash: 'https://www.doordash.com/en-CA/store/fresca-pizza-toronto-52392/?utm_campaign=gpa',
-        website: 'https://www.frescapizzapasta.com/'
+        website: 'https://www.frescapizzapasta.com/',
+        background: 'fresca.png'
     },
     {
         id: 9,
@@ -283,7 +311,8 @@ const pizzas = [
         delivery: true,
         ubereats: 'https://www.ubereats.com/ca/store/bitondo-pizzeria/zJKhSH18Truhm1aroP5eng?diningMode=PICKUP&pl=JTdCJTIyYWRkcmVzcyUyMiUzQSUyMjEyMCUyMFBhcmxpYW1lbnQlMjBTdCUyMiUyQyUyMnJlZmVyZW5jZSUyMiUzQSUyMmYwNWFkMTkyLWM4MzktNDkyZi03NWE0LTI4NGIxZDNjMGMwNiUyMiUyQyUyMnJlZmVyZW5jZVR5cGUlMjIlM0ElMjJ1YmVyX3BsYWNlcyUyMiUyQyUyMmxhdGl0dWRlJTIyJTNBNDMuNjUzODgxNyUyQyUyMmxvbmdpdHVkZSUyMiUzQS03OS4zNjQwMDQ3JTdE&utm_campaign=place-action-link&utm_medium=organic&utm_source=google',
         doordash: 'https://www.doordash.com/en-CA/store/bitondo\'s-pizzeria-toronto-52334/?utm_campaign=gpa',
-        website: 'https://bitondo-pizzeria.business.site/'
+        website: 'https://bitondo-pizzeria.business.site/',
+        background: 'bitondo.png'
     },
     {
         id: 10,
@@ -293,7 +322,8 @@ const pizzas = [
         delivery: true,
         ubereats: 'https://www.ubereats.com/ca/store/burattino-pizza/1DzTDHMWQC6m0aR0EK-nEA?diningMode=PICKUP&pl=JTdCJTIyYWRkcmVzcyUyMiUzQSUyMjEyMCUyMFBhcmxpYW1lbnQlMjBTdCUyMiUyQyUyMnJlZmVyZW5jZSUyMiUzQSUyMmYwNWFkMTkyLWM4MzktNDkyZi03NWE0LTI4NGIxZDNjMGMwNiUyMiUyQyUyMnJlZmVyZW5jZVR5cGUlMjIlM0ElMjJ1YmVyX3BsYWNlcyUyMiUyQyUyMmxhdGl0dWRlJTIyJTNBNDMuNjUzODgxNyUyQyUyMmxvbmdpdHVkZSUyMiUzQS03OS4zNjQwMDQ3JTdE&utm_campaign=place-action-link&utm_medium=organic&utm_source=google',
         doordash: 'https://www.doordash.com/en-CA/store/burattino-brick-oven-pizza-inc-toronto-1882594/?utm_campaign=gpa',
-        website: 'https://www.burattinopizza.ca/'
+        website: 'https://www.burattinopizza.ca/',
+        background: 'burattino.png'
     }
 ]
 
@@ -306,7 +336,8 @@ const burgers = [
         delivery: false,
         ubereats: '',
         doordash: '',
-        website: 'https://www.fiveguys.ca/'
+        website: 'https://www.fiveguys.ca/',
+        background: 'fiveguys.png'
     },
     {
         id: 2,
@@ -316,7 +347,8 @@ const burgers = [
         delivery: true,
         ubereats: 'https://www.ubereats.com/ca/store/burgers-priest-adelaide/N64J3IU2Qf68YPW71WhqCA?diningMode=PICKUP&pl=JTdCJTIyYWRkcmVzcyUyMiUzQSUyMjEyMCUyMFBhcmxpYW1lbnQlMjBTdCUyMiUyQyUyMnJlZmVyZW5jZSUyMiUzQSUyMmYwNWFkMTkyLWM4MzktNDkyZi03NWE0LTI4NGIxZDNjMGMwNiUyMiUyQyUyMnJlZmVyZW5jZVR5cGUlMjIlM0ElMjJ1YmVyX3BsYWNlcyUyMiUyQyUyMmxhdGl0dWRlJTIyJTNBNDMuNjUzODgxNyUyQyUyMmxvbmdpdHVkZSUyMiUzQS03OS4zNjQwMDQ3JTdE&utm_campaign=place-action-link&utm_medium=organic&utm_source=google',
         doordash: 'https://www.doordash.com/en-CA/store/the-burger\'s-priest-toronto-50983/?utm_campaign=gpa',
-        website: 'https://www.theburgerspriest.com/'
+        website: 'https://www.theburgerspriest.com/',
+        background: 'priest.png'
     },
     {
         id: 3,
@@ -326,7 +358,8 @@ const burgers = [
         delivery: true,
         ubereats: '',
         doordash: 'https://www.doordash.com/en-CA/store/chick-fil-a%C2%AE-toronto-916282/?utm_campaign=gpa',
-        website: 'https://www.chick-fil-a.ca/'
+        website: 'https://www.chick-fil-a.ca/',
+        background: 'chick.png'
     },
     {
         id: 4,
@@ -336,7 +369,8 @@ const burgers = [
         delivery: true,
         ubereats: 'https://www.ubereats.com/ca/store/rudy-college/vcmRVZ9WSkebaY52xWXQ4g?diningMode=PICKUP&pl=JTdCJTIyYWRkcmVzcyUyMiUzQSUyMjEyMCUyMFBhcmxpYW1lbnQlMjBTdCUyMiUyQyUyMnJlZmVyZW5jZSUyMiUzQSUyMmYwNWFkMTkyLWM4MzktNDkyZi03NWE0LTI4NGIxZDNjMGMwNiUyMiUyQyUyMnJlZmVyZW5jZVR5cGUlMjIlM0ElMjJ1YmVyX3BsYWNlcyUyMiUyQyUyMmxhdGl0dWRlJTIyJTNBNDMuNjUzODgxNyUyQyUyMmxvbmdpdHVkZSUyMiUzQS03OS4zNjQwMDQ3JTdE&utm_campaign=place-action-link&utm_medium=organic&utm_source=google',
         doordash: '',
-        website: 'http://www.rudyresto.com/'
+        website: 'http://www.rudyresto.com/',
+        background: 'rudy.png'
     },
     {
         id: 5,
@@ -346,7 +380,8 @@ const burgers = [
         delivery: true,
         ubereats: 'https://www.ubereats.com/ca/store/happy-burger-yonge-st/kaU-zJdIV_OfZ3Tw1P5kPQ?diningMode=PICKUP',
         doordash: 'https://www.doordash.com/en-CA/store/happy-burger-toronto-1138759/?utm_campaign=gpa',
-        website: 'http://happyburger.ca/'
+        website: 'http://happyburger.ca/',
+        background: 'happy.png'
     },
     {
         id: 6,
@@ -356,7 +391,8 @@ const burgers = [
         delivery: true,
         ubereats: 'https://www.ubereats.com/ca/store/the-burgernator/c7mmzM46TFGHVwOqYIVh5A?diningMode=PICKUP&pl=JTdCJTIyYWRkcmVzcyUyMiUzQSUyMjEyMCUyMFBhcmxpYW1lbnQlMjBTdCUyMiUyQyUyMnJlZmVyZW5jZSUyMiUzQSUyMmYwNWFkMTkyLWM4MzktNDkyZi03NWE0LTI4NGIxZDNjMGMwNiUyMiUyQyUyMnJlZmVyZW5jZVR5cGUlMjIlM0ElMjJ1YmVyX3BsYWNlcyUyMiUyQyUyMmxhdGl0dWRlJTIyJTNBNDMuNjUzODgxNyUyQyUyMmxvbmdpdHVkZSUyMiUzQS03OS4zNjQwMDQ3JTdE&utm_campaign=place-action-link&utm_medium=organic&utm_source=google',
         doordash: 'https://www.doordash.com/en-CA/store/the-burgernator-toronto-30233/?utm_campaign=gpa',
-        website: 'http://www.theburgernator.com/'
+        website: 'http://www.theburgernator.com/',
+        background: 'burgernator.png'
     },
     {
         id: 7,
@@ -366,7 +402,8 @@ const burgers = [
         delivery: true,
         ubereats: 'https://www.ubereats.com/ca/store/cabanos-cheeseburgers-downtown/oQRRMhOtTI69ihriwJsJBQ?diningMode=PICKUP&pl=JTdCJTIyYWRkcmVzcyUyMiUzQSUyMjEyMCUyMFBhcmxpYW1lbnQlMjBTdCUyMiUyQyUyMnJlZmVyZW5jZSUyMiUzQSUyMmYwNWFkMTkyLWM4MzktNDkyZi03NWE0LTI4NGIxZDNjMGMwNiUyMiUyQyUyMnJlZmVyZW5jZVR5cGUlMjIlM0ElMjJ1YmVyX3BsYWNlcyUyMiUyQyUyMmxhdGl0dWRlJTIyJTNBNDMuNjUzODgxNyUyQyUyMmxvbmdpdHVkZSUyMiUzQS03OS4zNjQwMDQ3JTdE&utm_campaign=place-action-link&utm_medium=organic&utm_source=google',
         doordash: 'https://www.doordash.com/en-CA/store/cabano\'s-cheeseburgers-toronto-23611035/?utm_campaign=gpa',
-        website: 'http://www.cabanos.ca/'
+        website: 'http://www.cabanos.ca/',
+        background: 'cabano.png'
     },
     {
         id: 8,
@@ -376,7 +413,8 @@ const burgers = [
         delivery: true,
         ubereats: 'https://www.ubereats.com/ca/store/burger-drops/kxTMAMGuRHSKKgAkSwTXRA?diningMode=PICKUP&ps=1',
         doordash: 'https://www.doordash.com/en-CA/store/burger-drops-toronto-1743024/?cursor=eyJzdG9yZV92ZXJ0aWNhbF9pZCI6bnVsbCwic2VhcmNoX2l0ZW1fY2Fyb3VzZWxfY3Vyc29yIjp7InF1ZXJ5IjoiYnVyZ2VyIGRyb3BzIiwiaXRlbV9pZHMiOltdLCJzZWFyY2hfdGVybSI6ImJ1cmdlciBkcm9wIiwidmVydGljYWxfaWQiOi05OTksInZlcnRpY2FsX25hbWUiOiJhbGwifSwic3RvcmVfcHJpbWFyeV92ZXJ0aWNhbF9pZHMiOlsxXSwiaXNfc2libGluZyI6ZmFsc2UsImZvcmNlX3N0b3JlX2F2YWlsYWJpbGl0eV92MiI6ZmFsc2UsImJ1bmRsZV9nbG9iYWxfc2VhcmNoX2NvbnRleHQiOm51bGx9&pickup=false',
-        website: 'http://www.burgerdrops.com/'
+        website: 'http://www.burgerdrops.com/',
+        background: 'drops.png'
     },
     {
         id: 9,
@@ -386,7 +424,8 @@ const burgers = [
         delivery: true,
         ubereats: 'https://www.ubereats.com/ca/store/ozzys-burgers/DbBXx_DbRpCYQm8H9PFcHw?diningMode=PICKUP&pl=JTdCJTIyYWRkcmVzcyUyMiUzQSUyMjEyMCUyMFBhcmxpYW1lbnQlMjBTdCUyMiUyQyUyMnJlZmVyZW5jZSUyMiUzQSUyMmYwNWFkMTkyLWM4MzktNDkyZi03NWE0LTI4NGIxZDNjMGMwNiUyMiUyQyUyMnJlZmVyZW5jZVR5cGUlMjIlM0ElMjJ1YmVyX3BsYWNlcyUyMiUyQyUyMmxhdGl0dWRlJTIyJTNBNDMuNjUzODgxNyUyQyUyMmxvbmdpdHVkZSUyMiUzQS03OS4zNjQwMDQ3JTdE&utm_campaign=place-action-link&utm_medium=organic&utm_source=google',
         doordash: 'https://www.doordash.com/en-CA/store/ozzy\'s-burgers-toronto-314607/?utm_campaign=gpa',
-        website: 'https://www.facebook.com/ozzysburgers/'
+        website: 'https://www.facebook.com/ozzysburgers/',
+        background: 'ozzys.png'
     },
     {
         id: 10,
@@ -396,7 +435,8 @@ const burgers = [
         delivery: true,
         ubereats: 'https://www.ubereats.com/store/top-gun-burgers-bloor-st/6wTfrfetXTKoZgqNA7CczQ?diningMode=PICKUP',
         doordash: 'https://www.doordash.com/en-CA/store/top-gun-steak-&-burgers-toronto-858078/?utm_campaign=gpa',
-        website: 'http://topgunburgerto.com/'
+        website: 'http://topgunburgerto.com/',
+        background: 'topgun.png'
     }
 ]
 
@@ -408,7 +448,8 @@ const bars = [
         location: 'https://maps.app.goo.gl/bY7H15zgWviprn1D9',
         reservation: false,
         booking: '',
-        website: 'https://www.thisisbarraval.com'
+        website: 'https://www.thisisbarraval.com',
+        background: 'raval.png'
     },
     {
         id: 2,
@@ -417,7 +458,8 @@ const bars = [
         location: 'https://maps.app.goo.gl/Q6AqCEMJmNeAF5y27',
         reservation: true,
         booking: 'https://resy.com/cities/tor/bar-poet?date=2023-09-23&seats=2',
-        website: 'https://www.barpoet.com'
+        website: 'https://www.barpoet.com',
+        background: 'poet.png'
     },
     {
         id: 3,
@@ -426,7 +468,8 @@ const bars = [
         location: 'https://maps.app.goo.gl/1mpjJkYb8njbr3X97',
         reservation: true,
         booking: 'https://www.opentable.ca/r/barchef-toronto?ref=16423',
-        website: 'http://www.barchef.com'
+        website: 'http://www.barchef.com',
+        background: 'barchef.png'
     },
     {
         id: 4,
@@ -435,7 +478,8 @@ const bars = [
         location: 'https://maps.app.goo.gl/8zXHsLkajtgChnEm8',
         reservation: true,
         booking: 'https://www.opentable.ca/r/clockwork-toronto?ref=16423',
-        website: 'http://www.clockworktoronto.com'
+        website: 'http://www.clockworktoronto.com',
+        background: 'clockwork.png'
     },
     {
         id: 5,
@@ -444,7 +488,8 @@ const bars = [
         location: 'https://maps.app.goo.gl/Cwwy1yTGFS1f2KXs7',
         reservation: true,
         booking: 'https://www.opentable.ca/r/mother-cocktail-bar-toronto?ref=16423',
-        website: 'http://www.motherdrinks.co'
+        website: 'http://www.motherdrinks.co',
+        background: 'mothercockt.png'
     },
     {
         id: 6,
@@ -453,7 +498,8 @@ const bars = [
         location: 'https://maps.app.goo.gl/p77QYtkjsnT3R8vQ9',
         reservation: true,
         booking: 'https://www.melroseonadelaide.com/reserve',
-        website: 'http://www.melroseonadelaide.com'
+        website: 'http://www.melroseonadelaide.com',
+        background: 'melrose.png'
     },
     {
         id: 7,
@@ -462,7 +508,8 @@ const bars = [
         location: 'https://maps.app.goo.gl/UCiU9dvcAQ6cuFDf9',
         reservation: false,
         booking: '',
-        website: 'http://hoofcocktailbar.com'
+        website: 'http://hoofcocktailbar.com',
+        background: 'cocktailbar.png'
     },
     {
         id: 8,
@@ -471,7 +518,8 @@ const bars = [
         location: 'https://maps.app.goo.gl/3zUdEWdep1o2Q9tH7',
         reservation: false,
         booking: '',
-        website: 'https://www.pompette.ca/barpompette'
+        website: 'https://www.pompette.ca/barpompette',
+        background: 'pompette.png'
     },
     {
         id: 9,
@@ -480,7 +528,8 @@ const bars = [
         location: 'https://maps.app.goo.gl/rHAPLvPXYdbeLppB7',
         reservation: true,
         booking: 'https://www.opentable.ca/r/prequel-and-co-apothecary-toronto?ref=16423',
-        website: 'http://www.barprequel.com/'
+        website: 'http://www.barprequel.com/',
+        background: 'prequel.png'
     },
     {
         id: 10,
@@ -489,7 +538,8 @@ const bars = [
         location: 'https://maps.app.goo.gl/ss8DsW9cpgn9bTvGA',
         reservation: false,
         booking: '',
-        website: 'http://www.civillibertiesbar.com/'
+        website: 'http://www.civillibertiesbar.com/',
+        background: 'liberties.png'
     }
 ]
 
@@ -502,7 +552,8 @@ const bakeries = [
         delivery: false,
         ubereats: '',
         doordash: '',
-        website: 'https://www.fornocultura.com/'
+        website: 'https://www.fornocultura.com/',
+        background: 'forno.png'
     },
     {
         id: 2,
@@ -512,7 +563,8 @@ const bakeries = [
         delivery: false,
         ubereats: '',
         doordash: '',
-        website: 'http://www.marvelousbyfred.ca/'
+        website: 'http://www.marvelousbyfred.ca/',
+        background: 'meirveilleux.png'
     },
     {
         id: 3,
@@ -522,7 +574,8 @@ const bakeries = [
         delivery: false,
         ubereats: '',
         doordash: '',
-        website: 'http://www.roselleto.com/'
+        website: 'http://www.roselleto.com/',
+        background: 'roselle.png'
     },
     {
         id: 4,
@@ -532,7 +585,8 @@ const bakeries = [
         delivery: true,
         ubereats: 'https://www.ubereats.com/ca/store/sud-forno/F-pDkgmAQx2C8gAk_zmUGQ?diningMode=DELIVERY&pl=JTdCJTIyYWRkcmVzcyUyMiUzQSUyMjEyMCUyMFBhcmxpYW1lbnQlMjBTdCUyMiUyQyUyMnJlZmVyZW5jZSUyMiUzQSUyMmYwNWFkMTkyLWM4MzktNDkyZi03NWE0LTI4NGIxZDNjMGMwNiUyMiUyQyUyMnJlZmVyZW5jZVR5cGUlMjIlM0ElMjJ1YmVyX3BsYWNlcyUyMiUyQyUyMmxhdGl0dWRlJTIyJTNBNDMuNjUzODgxNyUyQyUyMmxvbmdpdHVkZSUyMiUzQS03OS4zNjQwMDQ3JTdE&utm_campaign=place-action-link&utm_medium=organic&utm_source=google',
         doordash: 'https://www.doordash.com/store/sud-forno-toronto-26637/',
-        website: 'https://www.terroni.com/locations/sud-forno-queen'
+        website: 'https://www.terroni.com/locations/sud-forno-queen',
+        background: 'sudforno.png'
     },
     {
         id: 5,
@@ -542,7 +596,8 @@ const bakeries = [
         delivery: false,
         ubereats: '',
         doordash: '',
-        website: 'https://www.instagram.com/bricolage_bakery/?hl=en'
+        website: 'https://www.instagram.com/bricolage_bakery/?hl=en',
+        background: 'bricolage.png'
     },
     {
         id: 6,
@@ -552,7 +607,8 @@ const bakeries = [
         delivery: true,
         ubereats: 'https://www.ubereats.com/ca/store/cobs-bread-the-beach/p9lhiIqKQYqZOv9nCJEpMw?diningMode=DELIVERY&pl=JTdCJTIyYWRkcmVzcyUyMiUzQSUyMjEyMCUyMFBhcmxpYW1lbnQlMjBTdCUyMiUyQyUyMnJlZmVyZW5jZSUyMiUzQSUyMmYwNWFkMTkyLWM4MzktNDkyZi03NWE0LTI4NGIxZDNjMGMwNiUyMiUyQyUyMnJlZmVyZW5jZVR5cGUlMjIlM0ElMjJ1YmVyX3BsYWNlcyUyMiUyQyUyMmxhdGl0dWRlJTIyJTNBNDMuNjUzODgxNyUyQyUyMmxvbmdpdHVkZSUyMiUzQS03OS4zNjQwMDQ3JTdE&utm_campaign=place-action-link&utm_medium=organic&utm_source=google',
         doordash: 'https://www.doordash.com/store/cobs-bread-toronto-1586186/?event_type=autocomplete&pickup=false',
-        website: 'https://www.cobsbread.com/'
+        website: 'https://www.cobsbread.com/',
+        background: 'cobs.png'
     },
     {
         id: 7,
@@ -562,7 +618,8 @@ const bakeries = [
         delivery: false,
         ubereats: '',
         doordash: '',
-        website: 'http://blackbirdbakingco.com/'
+        website: 'http://blackbirdbakingco.com/',
+        background: 'blackbird.png'
     },
     {
         id: 8,
@@ -572,7 +629,8 @@ const bakeries = [
         delivery: false,
         ubereats: '',
         doordash: '',
-        website: 'http://www.lebeaulab.com/'
+        website: 'http://www.lebeaulab.com/',
+        background: 'lebeau.png'
     },
     {
         id: 9,
@@ -582,7 +640,8 @@ const bakeries = [
         delivery: true,
         ubereats: 'https://www.ubereats.com/ca/store/le-genie-bakery-%26-espresso-yonge-%26-gerrard/De5HMZf-RLmgjwESqo1Fgg?diningMode=DELIVERY&pl=JTdCJTIyYWRkcmVzcyUyMiUzQSUyMjEyMCUyMFBhcmxpYW1lbnQlMjBTdCUyMiUyQyUyMnJlZmVyZW5jZSUyMiUzQSUyMmYwNWFkMTkyLWM4MzktNDkyZi03NWE0LTI4NGIxZDNjMGMwNiUyMiUyQyUyMnJlZmVyZW5jZVR5cGUlMjIlM0ElMjJ1YmVyX3BsYWNlcyUyMiUyQyUyMmxhdGl0dWRlJTIyJTNBNDMuNjUzODgxNyUyQyUyMmxvbmdpdHVkZSUyMiUzQS03OS4zNjQwMDQ3JTdE&ps=1&utm_campaign=place-action-link&utm_medium=organic&utm_source=google',
         doordash: 'https://www.doordash.com/store/le-genie-bakery-&-espresso-toronto-24700729',
-        website: 'https://le-genie.ca/'
+        website: 'https://le-genie.ca/',
+        background: 'legenie.png'
     },
     {
         id: 10,
@@ -592,7 +651,8 @@ const bakeries = [
         delivery: true,
         ubereats: 'https://www.ubereats.com/ca/store/nugateau/P_0zccUFTo673bG1xAMp4g?diningMode=DELIVERY&pl=JTdCJTIyYWRkcmVzcyUyMiUzQSUyMjEyMCUyMFBhcmxpYW1lbnQlMjBTdCUyMiUyQyUyMnJlZmVyZW5jZSUyMiUzQSUyMmYwNWFkMTkyLWM4MzktNDkyZi03NWE0LTI4NGIxZDNjMGMwNiUyMiUyQyUyMnJlZmVyZW5jZVR5cGUlMjIlM0ElMjJ1YmVyX3BsYWNlcyUyMiUyQyUyMmxhdGl0dWRlJTIyJTNBNDMuNjUzODgxNyUyQyUyMmxvbmdpdHVkZSUyMiUzQS03OS4zNjQwMDQ3JTdE&utm_campaign=place-action-link&utm_medium=organic&utm_source=google',
         doordash: 'https://www.doordash.com/store/nugateau-patisserie-toronto-314538/?utm_campaign=gpa',
-        website: 'http://www.nugateau.com'
+        website: 'http://www.nugateau.com',
+        background: 'nugateau.png'
     },
 ]
 
@@ -605,7 +665,8 @@ const breakfast = [
         delivery: true,
         ubereats: 'https://www.emmascountrykitchen.com/online-ordering',
         doordash: 'https://www.emmascountrykitchen.com/online-ordering',
-        website: 'https://www.emmascountrykitchen.com'
+        website: 'https://www.emmascountrykitchen.com',
+        background: 'rudy.png'
     },
     {
         id: 2,
@@ -615,7 +676,8 @@ const breakfast = [
         delivery: false,
         ubereats: '',
         doordash: '',
-        website: 'https://mildreds.ca'
+        website: 'https://mildreds.ca',
+        background: 'rudy.png'
     },
     {
         id: 3,
@@ -625,7 +687,8 @@ const breakfast = [
         delivery: false,
         ubereats: '',
         doordash: '',
-        website: 'http://www.ladymarmalade.ca/'
+        website: 'http://www.ladymarmalade.ca/',
+        background: 'rudy.png'
     },
     {
         id: 4,
@@ -635,7 +698,8 @@ const breakfast = [
         delivery: true,
         ubereats: 'https://www.ubereats.com/ca/store/old-school/i-wxtCKZQOOctP0pNkYX0Q?diningMode=DELIVERY&sc=SEARCH_SUGGESTION',
         doordash: 'https://www.doordash.com/store/old-school-toronto-26608/?event_type=autocomplete&pickup=false',
-        website: 'http://www.oldschoolyyz.com/'
+        website: 'http://www.oldschoolyyz.com/',
+        background: 'rudy.png'
     },
     {
         id: 5,
@@ -645,7 +709,8 @@ const breakfast = [
         delivery: false,
         ubereats: '',
         doordash: '',
-        website: 'https://www.instagram.com/savinggraceto/'
+        website: 'https://www.instagram.com/savinggraceto/',
+        background: 'rudy.png'
     },
     {
         id: 6,
@@ -655,7 +720,8 @@ const breakfast = [
         delivery: true,
         ubereats: 'https://www.ubereats.com/ca/store/the-drake-hotel/kyd-YNciSFuKAmyQPg3jTg?diningMode=DELIVERY&sc=SEARCH_SUGGESTION',
         doordash: '',
-        website: 'http://www.thedrakehotel.ca/dining/venues/lounge/'
+        website: 'http://www.thedrakehotel.ca/dining/venues/lounge/',
+        background: 'rudy.png'
     },
     {
         id: 7,
@@ -665,7 +731,8 @@ const breakfast = [
         delivery: false,
         ubereats: '',
         doordash: '',
-        website: 'http://www.figsbreakfastlunch.com/'
+        website: 'http://www.figsbreakfastlunch.com/',
+        background: 'rudy.png'
     },
     {
         id: 8,
@@ -675,7 +742,8 @@ const breakfast = [
         delivery: false,
         ubereats: '',
         doordash: '',
-        website: 'https://www.1hotels.com/toronto/taste/1-kitchen'
+        website: 'https://www.1hotels.com/toronto/taste/1-kitchen',
+        background: 'rudy.png'
     },
     {
         id: 9,
@@ -685,7 +753,8 @@ const breakfast = [
         delivery: true,
         ubereats: 'https://www.ubereats.com/ca/store/sisters-%26-co/RiGgbyd6REq3EKdAQtvl8w?diningMode=DELIVERY&pl=JTdCJTIyYWRkcmVzcyUyMiUzQSUyMjEyMCUyMFBhcmxpYW1lbnQlMjBTdCUyMiUyQyUyMnJlZmVyZW5jZSUyMiUzQSUyMmYwNWFkMTkyLWM4MzktNDkyZi03NWE0LTI4NGIxZDNjMGMwNiUyMiUyQyUyMnJlZmVyZW5jZVR5cGUlMjIlM0ElMjJ1YmVyX3BsYWNlcyUyMiUyQyUyMmxhdGl0dWRlJTIyJTNBNDMuNjUzODgxNyUyQyUyMmxvbmdpdHVkZSUyMiUzQS03OS4zNjQwMDQ3JTdE&ps=1&utm_campaign=place-action-link&utm_medium=organic&utm_source=google',
         doordash: 'https://www.doordash.com/store/sisters-and-co-toronto-25147086/?utm_campaign=gpa',
-        website: 'https://sistersco.ca/'
+        website: 'https://sistersco.ca/',
+        background: 'rudy.png'
     },
     {
         id: 10,
@@ -695,7 +764,8 @@ const breakfast = [
         delivery: false,
         ubereats: '',
         doordash: '',
-        website: 'https://miloutoronto.com/'
+        website: 'https://miloutoronto.com/',
+        background: 'rudy.png'
     },
 ]
 
@@ -708,7 +778,8 @@ const healthy = [
         delivery: true,
         ubereats: 'https://www.ubereats.com/ca/store/planta-queen/Q1f1Ml5UQ3awzFHmSW_FYg?diningMode=DELIVERY&pl=JTdCJTIyYWRkcmVzcyUyMiUzQSUyMjEyMCUyMFBhcmxpYW1lbnQlMjBTdCUyMiUyQyUyMnJlZmVyZW5jZSUyMiUzQSUyMmYwNWFkMTkyLWM4MzktNDkyZi03NWE0LTI4NGIxZDNjMGMwNiUyMiUyQyUyMnJlZmVyZW5jZVR5cGUlMjIlM0ElMjJ1YmVyX3BsYWNlcyUyMiUyQyUyMmxhdGl0dWRlJTIyJTNBNDMuNjUzODgxNyUyQyUyMmxvbmdpdHVkZSUyMiUzQS03OS4zNjQwMDQ3JTdE&utm_campaign=place-action-link&utm_medium=organic&utm_source=google',
         doordash: 'https://www.doordash.com/store/planta-queen-toronto-714658/?utm_campaign=gpa',
-        website: 'https://www.plantarestaurants.com/location/planta-queen-yorkville/'
+        website: 'https://www.plantarestaurants.com/location/planta-queen-yorkville/',
+        background: 'rudy.png'
     },
     {
         id: 2,
@@ -718,7 +789,8 @@ const healthy = [
         delivery: true,
         ubereats: 'https://www.ubereats.com/ca/store/mary-be-kitchen/IeXcrvWuQTqwHxpLQS3kig?diningMode=DELIVERY&pl=JTdCJTIyYWRkcmVzcyUyMiUzQSUyMjEyMCUyMFBhcmxpYW1lbnQlMjBTdCUyMiUyQyUyMnJlZmVyZW5jZSUyMiUzQSUyMmYwNWFkMTkyLWM4MzktNDkyZi03NWE0LTI4NGIxZDNjMGMwNiUyMiUyQyUyMnJlZmVyZW5jZVR5cGUlMjIlM0ElMjJ1YmVyX3BsYWNlcyUyMiUyQyUyMmxhdGl0dWRlJTIyJTNBNDMuNjUzODgxNyUyQyUyMmxvbmdpdHVkZSUyMiUzQS03OS4zNjQwMDQ3JTdE&utm_campaign=place-action-link&utm_medium=organic&utm_source=google',
         doordash: 'https://www.doordash.com/store/mary-be-kitchen-toronto-237559/?utm_campaign=gpa',
-        website: 'http://www.marybekitchen.com/'
+        website: 'http://www.marybekitchen.com/',
+        background: 'rudy.png'
     },
     {
         id: 3,
@@ -728,7 +800,8 @@ const healthy = [
         delivery: true,
         ubereats: 'https://www.ubereats.com/ca/store/fresh-kitchen-%2B-juice-bar-on-eglinton/UAoAH3ejR4e2EDmJfZcgbA?diningMode=DELIVERY&pl=JTdCJTIyYWRkcmVzcyUyMiUzQSUyMjEyMCUyMFBhcmxpYW1lbnQlMjBTdCUyMiUyQyUyMnJlZmVyZW5jZSUyMiUzQSUyMmYwNWFkMTkyLWM4MzktNDkyZi03NWE0LTI4NGIxZDNjMGMwNiUyMiUyQyUyMnJlZmVyZW5jZVR5cGUlMjIlM0ElMjJ1YmVyX3BsYWNlcyUyMiUyQyUyMmxhdGl0dWRlJTIyJTNBNDMuNjUzODgxNyUyQyUyMmxvbmdpdHVkZSUyMiUzQS03OS4zNjQwMDQ3JTdE&utm_campaign=place-action-link&utm_medium=organic&utm_source=google',
         doordash: 'https://www.doordash.com/store/fresh:-kitchen-+-juice-bar-toronto-152774/?utm_campaign=gpa',
-        website: 'https://www.freshkitchens.ca/en/locations/on/toronto/101-eglinton-avenue-east'
+        website: 'https://www.freshkitchens.ca/en/locations/on/toronto/101-eglinton-avenue-east',
+        background: 'rudy.png'
     },
     {
         id: 4,
@@ -738,7 +811,8 @@ const healthy = [
         delivery: true,
         ubereats: 'https://www.ubereats.com/ca/store/nutbar-summerhill/lV3DcuRkSuyySUUtZ7FQoQ?diningMode=DELIVERY&pl=JTdCJTIyYWRkcmVzcyUyMiUzQSUyMjEyMCUyMFBhcmxpYW1lbnQlMjBTdCUyMiUyQyUyMnJlZmVyZW5jZSUyMiUzQSUyMmYwNWFkMTkyLWM4MzktNDkyZi03NWE0LTI4NGIxZDNjMGMwNiUyMiUyQyUyMnJlZmVyZW5jZVR5cGUlMjIlM0ElMjJ1YmVyX3BsYWNlcyUyMiUyQyUyMmxhdGl0dWRlJTIyJTNBNDMuNjUzODgxNyUyQyUyMmxvbmdpdHVkZSUyMiUzQS03OS4zNjQwMDQ3JTdE&utm_campaign=place-action-link&utm_medium=organic&utm_source=google',
         doordash: '',
-        website: 'http://nutbar.co/'
+        website: 'http://nutbar.co/',
+        background: 'rudy.png'
     },
     {
         id: 5,
@@ -748,7 +822,8 @@ const healthy = [
         delivery: true,
         ubereats: '',
         doordash: 'https://www.doordash.com/store/kupfert-&-kim-toronto-314306/?utm_campaign=gpa',
-        website: 'http://www.kupfertandkim.com/'
+        website: 'http://www.kupfertandkim.com/',
+        background: 'rudy.png'
     },
     {
         id: 6,
@@ -758,7 +833,8 @@ const healthy = [
         delivery: true,
         ubereats: '',
         doordash: 'https://www.doordash.com/store/basil-box-toronto-843946/?utm_campaign=gpa',
-        website: 'http://www.thebasilbox.com/'
+        website: 'http://www.thebasilbox.com/',
+        background: 'rudy.png'
     },
     {
         id: 7,
@@ -768,7 +844,8 @@ const healthy = [
         delivery: true,
         ubereats: 'https://www.ubereats.com/ca/store/imperfect-fresh-eats/WxWHfcb0RuS0rQyOBzz8VA?diningMode=DELIVERY&pl=JTdCJTIyYWRkcmVzcyUyMiUzQSUyMjEyMCUyMFBhcmxpYW1lbnQlMjBTdCUyMiUyQyUyMnJlZmVyZW5jZSUyMiUzQSUyMmYwNWFkMTkyLWM4MzktNDkyZi03NWE0LTI4NGIxZDNjMGMwNiUyMiUyQyUyMnJlZmVyZW5jZVR5cGUlMjIlM0ElMjJ1YmVyX3BsYWNlcyUyMiUyQyUyMmxhdGl0dWRlJTIyJTNBNDMuNjUzODgxNyUyQyUyMmxvbmdpdHVkZSUyMiUzQS03OS4zNjQwMDQ3JTdE&utm_campaign=place-action-link&utm_medium=organic&utm_source=google',
         doordash: '',
-        website: 'http://www.imperfectfresheats.com/'
+        website: 'http://www.imperfectfresheats.com/',
+        background: 'rudy.png'
     },
     {
         id: 8,
@@ -778,7 +855,8 @@ const healthy = [
         delivery: true,
         ubereats: 'https://www.ubereats.com/ca/store/mandys-liberty-village/7bYKd16LUQ6j7o3QuInPcw?diningMode=DELIVERY&pl=JTdCJTIyYWRkcmVzcyUyMiUzQSUyMjEyMCUyMFBhcmxpYW1lbnQlMjBTdCUyMiUyQyUyMnJlZmVyZW5jZSUyMiUzQSUyMmYwNWFkMTkyLWM4MzktNDkyZi03NWE0LTI4NGIxZDNjMGMwNiUyMiUyQyUyMnJlZmVyZW5jZVR5cGUlMjIlM0ElMjJ1YmVyX3BsYWNlcyUyMiUyQyUyMmxhdGl0dWRlJTIyJTNBNDMuNjUzODgxNyUyQyUyMmxvbmdpdHVkZSUyMiUzQS03OS4zNjQwMDQ3JTdE&utm_campaign=place-action-link&utm_medium=organic&utm_source=google',
         doordash: '',
-        website: 'http://www.mandys.ca/order'
+        website: 'http://www.mandys.ca/order',
+        background: 'rudy.png'
     },
     {
         id: 9,
@@ -788,7 +866,8 @@ const healthy = [
         delivery: true,
         ubereats: 'https://www.ubereats.com/ca/store/iq-food-co-brookfield/YM-BMzn8UUuIgPPUfR4rcA?diningMode=DELIVERY&pl=JTdCJTIyYWRkcmVzcyUyMiUzQSUyMjEyMCUyMFBhcmxpYW1lbnQlMjBTdCUyMiUyQyUyMnJlZmVyZW5jZSUyMiUzQSUyMmYwNWFkMTkyLWM4MzktNDkyZi03NWE0LTI4NGIxZDNjMGMwNiUyMiUyQyUyMnJlZmVyZW5jZVR5cGUlMjIlM0ElMjJ1YmVyX3BsYWNlcyUyMiUyQyUyMmxhdGl0dWRlJTIyJTNBNDMuNjUzODgxNyUyQyUyMmxvbmdpdHVkZSUyMiUzQS03OS4zNjQwMDQ3JTdE&utm_campaign=place-action-link&utm_medium=organic&utm_source=google',
         doordash: 'https://www.doordash.com/store/iq-food-co-toronto-24773663/?utm_campaign=gpa',
-        website: 'http://www.iqfoodco.com/'
+        website: 'http://www.iqfoodco.com/',
+        background: 'rudy.png'
     },
     {
         id: 10,
@@ -798,7 +877,8 @@ const healthy = [
         delivery: true,
         ubereats: 'https://www.ubereats.com/ca/store/freshii-college-park/ZHvoC97bQEi6Z6pRESZ2Ew?diningMode=DELIVERY&pl=JTdCJTIyYWRkcmVzcyUyMiUzQSUyMjEyMCUyMFBhcmxpYW1lbnQlMjBTdCUyMiUyQyUyMnJlZmVyZW5jZSUyMiUzQSUyMmYwNWFkMTkyLWM4MzktNDkyZi03NWE0LTI4NGIxZDNjMGMwNiUyMiUyQyUyMnJlZmVyZW5jZVR5cGUlMjIlM0ElMjJ1YmVyX3BsYWNlcyUyMiUyQyUyMmxhdGl0dWRlJTIyJTNBNDMuNjUzODgxNyUyQyUyMmxvbmdpdHVkZSUyMiUzQS03OS4zNjQwMDQ3JTdE&utm_campaign=place-action-link&utm_medium=organic&utm_source=google',
         doordash: 'https://www.doordash.com/store/freshii-toronto-1009429/?cursor=eyJzdG9yZV92ZXJ0aWNhbF9pZCI6bnVsbCwic2VhcmNoX2l0ZW1fY2Fyb3VzZWxfY3Vyc29yIjp7InF1ZXJ5IjoiZnJlc2hpaSIsIml0ZW1faWRzIjpbXSwic2VhcmNoX3Rlcm0iOiJmcmVzaGlpIiwidmVydGljYWxfaWQiOi05OTksInZlcnRpY2FsX25hbWUiOiJhbGwifSwic3RvcmVfcHJpbWFyeV92ZXJ0aWNhbF9pZHMiOlsxXSwiaXNfc2libGluZyI6ZmFsc2UsImZvcmNlX3N0b3JlX2F2YWlsYWJpbGl0eV92MiI6ZmFsc2UsImJ1bmRsZV9nbG9iYWxfc2VhcmNoX2NvbnRleHQiOm51bGx9&pickup=false',
-        website: 'https://freshii.com/locations/ca/collegepark/'
+        website: 'https://freshii.com/locations/ca/collegepark/',
+        background: 'rudy.png'
     },
 ]
 
@@ -810,7 +890,8 @@ const finedining = [
         location: 'https://maps.app.goo.gl/6LZ1BRs6nkLRT2iS9',
         reservation: true,
         booking: 'https://www.exploretock.com/alorestaurant/',
-        website: 'https://alorestaurant.com/'
+        website: 'https://alorestaurant.com/',
+        background: 'rudy.png'
     },
     {
         id: 2,
@@ -819,7 +900,8 @@ const finedining = [
         location: 'https://maps.app.goo.gl/X5ZM3z3m1MNPkVbZA',
         reservation: true,
         booking: 'https://akirabacktoronto.com/contact/',
-        website: 'http://www.akirabacktoronto.com/'
+        website: 'http://www.akirabacktoronto.com/',
+        background: 'rudy.png'
     },
     {
         id: 3,
@@ -828,7 +910,8 @@ const finedining = [
         location: 'https://maps.app.goo.gl/ENBgvrBg3Bg1UhTn9',
         reservation: true,
         booking: 'https://www.opentable.ca/george-restaurant?ref=16423',
-        website: 'http://www.georgeonqueen.com/'
+        website: 'http://www.georgeonqueen.com/',
+        background: 'rudy.png'
     },
     {
         id: 4,
@@ -837,7 +920,8 @@ const finedining = [
         location: 'https://maps.app.goo.gl/adLsAohnnHBLXdwV7',
         reservation: true,
         booking: 'https://www.opentable.ca/canoe-restaurant-and-bar?ref=16423',
-        website: 'http://www.canoerestaurant.com/'
+        website: 'http://www.canoerestaurant.com/',
+        background: 'rudy.png'
     },
     {
         id: 5,
@@ -846,7 +930,8 @@ const finedining = [
         location: 'https://maps.app.goo.gl/cPcaLmUSWMygGgfT7',
         reservation: true,
         booking: 'https://www.opentable.ca/harbour-sixty?ref=16423',
-        website: 'http://www.harbour60.com/'
+        website: 'http://www.harbour60.com/',
+        background: 'rudy.png'
     },
     {
         id: 6,
@@ -855,7 +940,8 @@ const finedining = [
         location: 'https://maps.app.goo.gl/ubW5bcZj6pxVSiUi7',
         reservation: true,
         booking: 'https://www.opentable.ca/r/don-alfonso-1890-toronto?ref=16423',
-        website: 'https://www.donalfonsotoronto.com/?utm_source=google&utm_medium=organic&utm_campaign=local&utm_content=Toronto'
+        website: 'https://www.donalfonsotoronto.com/?utm_source=google&utm_medium=organic&utm_campaign=local&utm_content=Toronto',
+        background: 'rudy.png'
     },
     {
         id: 7,
@@ -864,7 +950,8 @@ const finedining = [
         location: 'https://maps.app.goo.gl/Yif59EnFWCEYQZ6Q6',
         reservation: true,
         booking: 'https://www.exploretock.com/aburihana/',
-        website: 'http://aburihana.com/'
+        website: 'http://aburihana.com/',
+        background: 'rudy.png'
     },
     {
         id: 8,
@@ -873,7 +960,8 @@ const finedining = [
         location: 'https://maps.app.goo.gl/upiiAb2SuKrxomM26',
         reservation: true,
         booking: 'https://www.exploretock.com/edulis/',
-        website: 'http://www.edulisrestaurant.com/'
+        website: 'http://www.edulisrestaurant.com/',
+        background: 'rudy.png'
     },
     {
         id: 9,
@@ -882,7 +970,8 @@ const finedining = [
         location: 'https://maps.app.goo.gl/Ak9NsbZj9mFU1bUQ9',
         reservation: true,
         booking: 'https://www.exploretock.com/kaiseki-yu-zen-hashimoto/',
-        website: 'https://www.kaiseki.ca/'
+        website: 'https://www.kaiseki.ca/',
+        background: 'rudy.png'
     },
     {
         id: 10,
@@ -891,7 +980,8 @@ const finedining = [
         location: 'https://maps.app.goo.gl/Ta9HAtArVDoQvEUo8',
         reservation: true,
         booking: 'https://www.opentable.ca/r/osteria-giulia-toronto?ref=16423',
-        website: 'http://osteriagiulia.ca/'
+        website: 'http://osteriagiulia.ca/',
+        background: 'rudy.png'
     }
 ]
 
@@ -903,7 +993,8 @@ const romantic = [
         location: 'https://maps.app.goo.gl/Mxdecfzr67tqCyVr6',
         reservation: true,
         booking: 'https://www.opentable.ca/r/grey-gardens-toronto?ref=16423',
-        website: 'http://greygardens.ca/'
+        website: 'http://greygardens.ca/',
+        background: 'rudy.png'
     },
     {
         id: 2,
@@ -912,7 +1003,8 @@ const romantic = [
         location: 'https://maps.app.goo.gl/gghDZEJ1KhwkDkqs6',
         reservation: true,
         booking: 'https://www.opentable.ca/r/le-select-bistro-toronto?ref=16423',
-        website: 'http://www.leselectbistro.com/'
+        website: 'http://www.leselectbistro.com/',
+        background: 'rudy.png'
     },
     {
         id: 3,
@@ -921,7 +1013,8 @@ const romantic = [
         location: 'https://maps.app.goo.gl/49W98dkcY3Uk58Um6',
         reservation: true,
         booking: 'https://barisabel.com/reserve/',
-        website: 'http://barisabel.com/'
+        website: 'http://barisabel.com/',
+        background: 'rudy.png'
     },
     {
         id: 4,
@@ -930,7 +1023,8 @@ const romantic = [
         location: 'https://maps.app.goo.gl/ypFgYvrcDWxBYPEM9',
         reservation: true,
         booking: 'https://www.opentable.ca/r/baro-toronto?ref=16423',
-        website: 'http://barotoronto.com/'
+        website: 'http://barotoronto.com/',
+        background: 'rudy.png'
     },
     {
         id: 5,
@@ -939,7 +1033,8 @@ const romantic = [
         location: 'https://maps.app.goo.gl/YJWoUAtF1bpQ73bUA',
         reservation: true,
         booking: 'https://www.sevenrooms.com/reservations/casamadera',
-        website: 'https://www.1hotels.com/toronto/taste/casa-madera?utm_source=google-gbp&utm_medium=organic&utm_campaign=gbp'
+        website: 'https://www.1hotels.com/toronto/taste/casa-madera?utm_source=google-gbp&utm_medium=organic&utm_campaign=gbp',
+        background: 'rudy.png'
     },
     {
         id: 6,
@@ -948,7 +1043,8 @@ const romantic = [
         location: 'https://maps.app.goo.gl/xaBJTDK4UkvB7iWx6',
         reservation: true,
         booking: 'https://www.opentable.ca/r/minami-restaurant-toronto?ref=16423',
-        website: 'http://minamitoronto.com/'
+        website: 'http://minamitoronto.com/',
+        background: 'rudy.png'
     },
     {
         id: 7,
@@ -957,7 +1053,8 @@ const romantic = [
         location: 'https://maps.app.goo.gl/eHnS1GaFm7kJq7Rz7',
         reservation: true,
         booking: 'https://www.opentable.ca/restref/client/?restref=112777&lang=en-CA&ot_source=Restaurant%20website&corrid=6df5770a-8882-44c9-9eb1-3705a4817ddd',
-        website: 'https://byblosdowntown.com/'
+        website: 'https://byblosdowntown.com/',
+        background: 'rudy.png'
     },
     {
         id: 8,
@@ -966,7 +1063,8 @@ const romantic = [
         location: 'https://maps.app.goo.gl/RGepNcE6Efu3qhQK9',
         reservation: true,
         booking: 'https://www.opentable.ca/r/js-steak-frites-toronto?ref=16423',
-        website: 'https://jssteakfrites.ca/'
+        website: 'https://jssteakfrites.ca/',
+        background: 'rudy.png'
     },
     {
         id: 9,
@@ -975,7 +1073,8 @@ const romantic = [
         location: 'https://maps.app.goo.gl/Pkik22ionsRUhkzF6',
         reservation: true,
         booking: 'https://www.hyssteakhouse.com/reserve',
-        website: 'http://www.hyssteakhouse.com/'
+        website: 'http://www.hyssteakhouse.com/',
+        background: 'rudy.png'
     },
     {
         id: 10,
@@ -984,7 +1083,8 @@ const romantic = [
         location: 'https://maps.app.goo.gl/jsVZkaVAxDhVu934A',
         reservation: true,
         booking: 'https://www.sevenrooms.com/reservations/360Restaurant?_gl=1*1qcbd08*_ga*NjEyODM2MDM0LjE2OTU2NzEzMDE.*_ga_B77ELRE9WC*MTY5NTY3MTMwMC4xLjEuMTY5NTY3MTMyNS4zNS4wLjA.',
-        website: 'https://www.cntower.ca/dine-at-360-restaurant/overview'
+        website: 'https://www.cntower.ca/dine-at-360-restaurant/overview',
+        background: 'rudy.png'
     }
 ]
 
@@ -997,7 +1097,8 @@ const vegans = [
         delivery: true,
         ubereats: 'https://www.ubereats.com/ca/store/planta-queen/Q1f1Ml5UQ3awzFHmSW_FYg?diningMode=DELIVERY&pl=JTdCJTIyYWRkcmVzcyUyMiUzQSUyMjEyMCUyMFBhcmxpYW1lbnQlMjBTdCUyMiUyQyUyMnJlZmVyZW5jZSUyMiUzQSUyMmYwNWFkMTkyLWM4MzktNDkyZi03NWE0LTI4NGIxZDNjMGMwNiUyMiUyQyUyMnJlZmVyZW5jZVR5cGUlMjIlM0ElMjJ1YmVyX3BsYWNlcyUyMiUyQyUyMmxhdGl0dWRlJTIyJTNBNDMuNjUzODgxNyUyQyUyMmxvbmdpdHVkZSUyMiUzQS03OS4zNjQwMDQ3JTdE&utm_campaign=place-action-link&utm_medium=organic&utm_source=google',
         doordash: 'https://www.doordash.com/store/planta-queen-toronto-714658/?utm_campaign=gpa',
-        website: 'https://www.plantarestaurants.com/location/planta-queen-yorkville/'
+        website: 'https://www.plantarestaurants.com/location/planta-queen-yorkville/',
+        background: 'rudy.png'
     },
     {
         id: 2,
@@ -1007,7 +1108,8 @@ const vegans = [
         delivery: true,
         ubereats: 'https://www.ubereats.com/ca/store/fresh-kitchen-%2B-juice-bar-on-eglinton/UAoAH3ejR4e2EDmJfZcgbA?diningMode=DELIVERY&pl=JTdCJTIyYWRkcmVzcyUyMiUzQSUyMjEyMCUyMFBhcmxpYW1lbnQlMjBTdCUyMiUyQyUyMnJlZmVyZW5jZSUyMiUzQSUyMmYwNWFkMTkyLWM4MzktNDkyZi03NWE0LTI4NGIxZDNjMGMwNiUyMiUyQyUyMnJlZmVyZW5jZVR5cGUlMjIlM0ElMjJ1YmVyX3BsYWNlcyUyMiUyQyUyMmxhdGl0dWRlJTIyJTNBNDMuNjUzODgxNyUyQyUyMmxvbmdpdHVkZSUyMiUzQS03OS4zNjQwMDQ3JTdE&utm_campaign=place-action-link&utm_medium=organic&utm_source=google',
         doordash: 'https://www.doordash.com/store/fresh:-kitchen-+-juice-bar-toronto-152774/?utm_campaign=gpa',
-        website: 'https://www.freshkitchens.ca/en/locations/on/toronto/101-eglinton-avenue-east'
+        website: 'https://www.freshkitchens.ca/en/locations/on/toronto/101-eglinton-avenue-east',
+        background: 'rudy.png'
     },
     {
         id: 3,
@@ -1017,7 +1119,8 @@ const vegans = [
         delivery: true,
         ubereats: 'https://www.ubereats.com/ca/store/rosalinda/xRl1pxRZXAqof-zrbVV2JQ?diningMode=DELIVERY&pl=JTdCJTIyYWRkcmVzcyUyMiUzQSUyMjEyMCUyMFBhcmxpYW1lbnQlMjBTdCUyMiUyQyUyMnJlZmVyZW5jZSUyMiUzQSUyMmYwNWFkMTkyLWM4MzktNDkyZi03NWE0LTI4NGIxZDNjMGMwNiUyMiUyQyUyMnJlZmVyZW5jZVR5cGUlMjIlM0ElMjJ1YmVyX3BsYWNlcyUyMiUyQyUyMmxhdGl0dWRlJTIyJTNBNDMuNjUzODgxNyUyQyUyMmxvbmdpdHVkZSUyMiUzQS03OS4zNjQwMDQ3JTdE&ps=1&utm_campaign=place-action-link&utm_medium=organic&utm_source=google',
         doordash: '',
-        website: 'http://rosalindarestaurant.com/'
+        website: 'http://rosalindarestaurant.com/',
+        background: 'rudy.png'
     },
     {
         id: 4,
@@ -1027,7 +1130,8 @@ const vegans = [
         delivery: true,
         ubereats: 'https://www.ubereats.com/ca/store/parka-food-co/i5gWFaC0QQWzLunfo4TXKg?diningMode=DELIVERY&ps=1&sc=SEARCH_SUGGESTION',
         doordash: 'https://www.doordash.com/store/parka-food-co.-toronto-348101/?event_type=autocomplete&pickup=false',
-        website: 'https://www.parkafoodco.com/'
+        website: 'https://www.parkafoodco.com/',
+        background: 'rudy.png'
     },
     {
         id: 5,
@@ -1037,7 +1141,8 @@ const vegans = [
         delivery: false,
         ubereats: '',
         doordash: '',
-        website: 'http://www.pizzeriadu.ca/'
+        website: 'http://www.pizzeriadu.ca/',
+        background: 'rudy.png'
     },
     {
         id: 6,
@@ -1047,7 +1152,8 @@ const vegans = [
         delivery: true,
         ubereats: 'https://www.ubereats.com/ca/store/copper-branch-thornhill/TSW8X_Y4Sja0r_Bsma0TeA?diningMode=DELIVERY&pl=JTdCJTIyYWRkcmVzcyUyMiUzQSUyMjEyMCUyMFBhcmxpYW1lbnQlMjBTdCUyMiUyQyUyMnJlZmVyZW5jZSUyMiUzQSUyMmYwNWFkMTkyLWM4MzktNDkyZi03NWE0LTI4NGIxZDNjMGMwNiUyMiUyQyUyMnJlZmVyZW5jZVR5cGUlMjIlM0ElMjJ1YmVyX3BsYWNlcyUyMiUyQyUyMmxhdGl0dWRlJTIyJTNBNDMuNjUzODgxNyUyQyUyMmxvbmdpdHVkZSUyMiUzQS03OS4zNjQwMDQ3JTdE&utm_campaign=place-action-link&utm_medium=organic&utm_source=google',
         doordash: 'https://www.doordash.com/store/copper-branch-vaughan-655048/?utm_campaign=gpa',
-        website: 'https://eatcopperbranch.com/'
+        website: 'https://eatcopperbranch.com/',
+        background: 'rudy.png'
     },
     {
         id: 7,
@@ -1057,7 +1163,8 @@ const vegans = [
         delivery: true,
         ubereats: 'https://www.ubereats.com/ca/feed?diningMode=DELIVERY&pl=JTdCJTIyYWRkcmVzcyUyMiUzQSUyMjEyMCUyMFBhcmxpYW1lbnQlMjBTdCUyMiUyQyUyMnJlZmVyZW5jZSUyMiUzQSUyMmYwNWFkMTkyLWM4MzktNDkyZi03NWE0LTI4NGIxZDNjMGMwNiUyMiUyQyUyMnJlZmVyZW5jZVR5cGUlMjIlM0ElMjJ1YmVyX3BsYWNlcyUyMiUyQyUyMmxhdGl0dWRlJTIyJTNBNDMuNjUzODgxNyUyQyUyMmxvbmdpdHVkZSUyMiUzQS03OS4zNjQwMDQ3JTdE',
         doordash: 'https://www.doordash.com/store/buddha\'s-vegan-restaurant-toronto-30282/?utm_campaign=gpa',
-        website: 'http://www.buddharestaurant.ca/'
+        website: 'http://www.buddharestaurant.ca/',
+        background: 'rudy.png'
     },
     {
         id: 8,
@@ -1067,7 +1174,8 @@ const vegans = [
         delivery: true,
         ubereats: '',
         doordash: 'https://www.doordash.com/store/hawker-toronto-24825175/?event_type=autocomplete&pickup=false',
-        website: 'http://hawker.to/'
+        website: 'http://hawker.to/',
+        background: 'rudy.png'
     },
     {
         id: 9,
@@ -1077,7 +1185,8 @@ const vegans = [
         delivery: true,
         ubereats: 'https://www.ubereats.com/ca/store/vegan-danish-bakery/QWwcZ_sIQuCAOKr6LXppmw?diningMode=DELIVERY&pl=JTdCJTIyYWRkcmVzcyUyMiUzQSUyMjEyMCUyMFBhcmxpYW1lbnQlMjBTdCUyMiUyQyUyMnJlZmVyZW5jZSUyMiUzQSUyMmYwNWFkMTkyLWM4MzktNDkyZi03NWE0LTI4NGIxZDNjMGMwNiUyMiUyQyUyMnJlZmVyZW5jZVR5cGUlMjIlM0ElMjJ1YmVyX3BsYWNlcyUyMiUyQyUyMmxhdGl0dWRlJTIyJTNBNDMuNjUzODgxNyUyQyUyMmxvbmdpdHVkZSUyMiUzQS03OS4zNjQwMDQ3JTdE&ps=1&utm_campaign=place-action-link&utm_medium=organic&utm_source=google',
         doordash: '',
-        website: 'http://www.vegandanishbakery.com/'
+        website: 'http://www.vegandanishbakery.com/',
+        background: 'rudy.png'
     },
     {
         id: 10,
@@ -1087,7 +1196,8 @@ const vegans = [
         delivery: true,
         ubereats: '',
         doordash: 'https://www.doordash.com/store/kupfert-&-kim-toronto-314306/?utm_campaign=gpa',
-        website: 'http://www.kupfertandkim.com/'
+        website: 'http://www.kupfertandkim.com/',
+        background: 'rudy.png'
     },
 ]
 
