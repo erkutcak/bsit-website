@@ -1,4 +1,4 @@
-import { vegans } from '@/constants'
+import { vegans } from '@/constants/tops'
 import Image from 'next/image'
 import React from 'react'
 import ubereats from '../public/ubereats.png'

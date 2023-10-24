@@ -1,4 +1,4 @@
-import { healthy } from '@/constants'
+import { healthy } from '@/constants/tops'
 import Image from 'next/image'
 import React from 'react'
 import ubereats from '../public/ubereats.png'

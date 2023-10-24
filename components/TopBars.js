@@ -1,4 +1,4 @@
-import { bars } from '@/constants'
+import { bars } from '@/constants/tops'
 import React from 'react'
 
 const TopBars = () => {

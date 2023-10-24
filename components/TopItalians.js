@@ -1,4 +1,4 @@
-import { italians } from '@/constants'
+import { italians } from '@/constants/tops'
 import React from 'react'
 
 const TopItalians = () => {

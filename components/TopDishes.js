@@ -1,4 +1,4 @@
-import { dishes } from '@/constants'
+import { dishes } from '@/constants/tops'
 import Image from 'next/image'
 import React from 'react'
 

@@ -1,4 +1,4 @@
-import { finedining } from '@/constants'
+import { finedining } from '@/constants/tops'
 import React from 'react'
 
 const TopFinedining = () => {

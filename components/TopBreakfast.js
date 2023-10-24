@@ -1,4 +1,4 @@
-import { breakfast } from '@/constants'
+import { breakfast } from '@/constants/tops'
 import Image from 'next/image'
 import React from 'react'
 import ubereats from '../public/ubereats.png'

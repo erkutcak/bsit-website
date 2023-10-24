@@ -1,4 +1,4 @@
-import { romantic } from '@/constants'
+import { romantic } from '@/constants/tops'
 import React from 'react'
 
 const TopRomantic = () => {
