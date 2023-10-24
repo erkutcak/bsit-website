@@ -7,7 +7,7 @@ export const authOptions = {
         GoogleProvider({
             clientId: process.env.GOOGLE_CLIENT_ID,
             clientSecret: process.env.GOOGLE_CLIENT_SECRET,
-            redirectUri: "https://bestspotsintoronto.com/api/auth/callback/google",
+            redirectUri: "https://www.bestspotsintoronto.com/api/auth/callback/google",
         }),
     // ...add more providers here
     ],
