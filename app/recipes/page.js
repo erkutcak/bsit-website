@@ -3,7 +3,6 @@
 import React, { useEffect } from 'react'
 import { useRouter } from 'next/navigation';
 import { useSession } from 'next-auth/react';
-import tiramisupic from '../../public/recipes/tiramisu1.png';
 import {
   Accordion,
   AccordionContent,
@@ -11,7 +10,6 @@ import {
   AccordionTrigger,
 } from "@/components/ui/accordion"
 import Tiramisu from '@/components/Tiramisu';
-import Image from 'next/image';
 
 const Recipes = () => {
 
@@ -28,23 +26,31 @@ const Recipes = () => {
       <Accordion type="single" collapsible className="md:flex md:flex-col md:justify-center md:items-stretch md:w-[65%] my-4 mx-2">
         <AccordionItem value="item-1">
           <AccordionTrigger className="relative w-full h-40 px-4 text-[#15003F] rounded-xl my-1 shadow-xl" style={{ backgroundImage: `url(recipes/tiramisu1.png)`, backgroundSize: 'cover', backgroundPosition: 'center' }}>
-            <p className='text-[2rem] font-bitter font-black tracking-widest text-[#15003F]/[.9]' style={{ position: 'absolute', top: '10px', left: '10px' }}>TIRAMISU</p>
+            <p className='bg-white text-[2rem] font-bitter font-black tracking-widest text-[#15003F]/[.9]' style={{ position: 'absolute', top: '10px', left: '10px' }}>TIRAMISU</p>
           </AccordionTrigger>
           <AccordionContent className="w-full">
             <Tiramisu />
           </AccordionContent>
         </AccordionItem>
         <AccordionItem value="item-2">
-          <AccordionTrigger className="relative w-full h-40 px-4 text-[#15003F] rounded-xl my-1 shadow-xl" style={{ backgroundImage: `url(recipes/tiramisu1.png)`, backgroundSize: 'cover', backgroundPosition: 'center' }}>
-            <p className='min-[425px]:text-[2rem] max-[425px]:text-[1.5rem] font-bitter font-black tracking-widest text-[#15003F]/[.9]' style={{ position: 'absolute', top: '10px', left: '10px' }}>LEVAIN COOKIES</p>
+          <AccordionTrigger className="relative w-full h-40 px-4 text-[#15003F] rounded-xl my-1 shadow-xl" style={{ backgroundImage: `url(recipes/levain.png)`, backgroundSize: 'cover', backgroundPosition: 'center' }}>
+            <p className='bg-white min-[425px]:text-[2rem] max-[425px]:text-[1.9rem] font-bitter font-black tracking-widest text-[#15003F]/[.9]' style={{ position: 'absolute', top: '10px', left: '10px' }}>LEVAIN COOKIES</p>
           </AccordionTrigger>
           <AccordionContent className="w-full">
             <Tiramisu />
           </AccordionContent>
         </AccordionItem>
         <AccordionItem value="item-3">
-          <AccordionTrigger className="relative w-full h-40 px-4 text-[#15003F] rounded-xl my-1 shadow-xl" style={{ backgroundImage: `url(recipes/tiramisu1.png)`, backgroundSize: 'cover', backgroundPosition: 'center' }}>
-            <p className='text-[2rem] font-bitter font-black tracking-widest text-[#15003F]/[.9]' style={{ position: 'absolute', top: '10px', left: '10px' }}>SAN SEBASTIAN <br/>CHEESECAKE</p>
+          <AccordionTrigger className="relative w-full h-40 px-4 text-[#15003F] rounded-xl my-1 shadow-xl" style={{ backgroundImage: `url(recipes/sebo.png)`, backgroundSize: 'cover', backgroundPosition: 'center' }}>
+            <p className='bg-white text-[2rem] font-bitter font-black tracking-widest text-[#15003F]/[.9]' style={{ position: 'absolute', top: '10px', left: '10px' }}>SAN SEBASTIAN <br/>CHEESECAKE</p>
+          </AccordionTrigger>
+          <AccordionContent className="w-full">
+            <Tiramisu />
+          </AccordionContent>
+        </AccordionItem>
+        <AccordionItem value="item-4">
+          <AccordionTrigger className="relative w-full h-40 px-4 text-[#15003F] rounded-xl my-1 shadow-xl" style={{ backgroundImage: `url(recipes/brownie3.png)`, backgroundSize: 'cover', backgroundPosition: 'center' }}>
+            <p className='bg-white text-[2rem] font-bitter font-black tracking-widest text-[#15003F]/[.9]' style={{ position: 'absolute', top: '10px', left: '10px' }}>FUDGE BROWNIE</p>
           </AccordionTrigger>
           <AccordionContent className="w-full">
             <Tiramisu />
