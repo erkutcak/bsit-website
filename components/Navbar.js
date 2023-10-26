@@ -32,7 +32,7 @@ export default function Navbar () {
                 <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
                     <Link href="/" className="flex items-center">
                         <Image src={logo} className="h-8 w-8 mr-3 md:h-10 md:w-10" alt="Logo" />
-                        <span className="self-center text-lg font-bitter font-black text-[#15003F] whitespace-nowrap md:text-xl dark:text-white">Best Spots in Toronto</span>
+                        <span className="self-center min-[375px]:text-[1.25rem] max-[350px]:text-[1rem] font-bitter font-black text-[#15003F] whitespace-nowrap dark:text-white">Best Spots in Toronto</span>
                     </Link>
                     <div className="relative flex items-center md:order-2">
                         <button data-collapse-toggle="navbar-user" type="button" className="lg:hidden inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" 
