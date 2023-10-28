@@ -38,7 +38,12 @@ const Tiramisu = () => {
         {displayIngredients}
       </div>
       <div>
-        <h4 className='font-bitter font-black text-xl mt-4 mb-2 underline decoration-double'>Instructions</h4>
+        <div className='flex flex-row items-center mt-4 mb-2 gap-2'>
+          <svg class="w-6 h-6 text-gray-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 20 19">
+            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="m9 12 5.419 3.871A1 1 0 0 0 16 15.057V2.943a1 1 0 0 0-1.581-.814L9 6m0 6V6m0 6H2a1 1 0 0 1-1-1V7a1 1 0 0 1 1-1h7m-5 6h3v5a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1v-5Zm15-3a3 3 0 0 1-3 3V6a3 3 0 0 1 3 3Z"/>
+          </svg>
+          <h4 className='font-bitter font-black text-xl underline decoration-double'>Instructions</h4>
+        </div>
         {displayInstructions}
       </div>
     </div>
