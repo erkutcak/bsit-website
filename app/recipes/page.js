@@ -10,6 +10,9 @@ import {
   AccordionTrigger,
 } from "@/components/ui/accordion"
 import Tiramisu from '@/components/Tiramisu';
+import Levain from '@/components/Levain';
+import Sebastian from '@/components/Sebastian';
+import Brownie from '@/components/Brownie';
 
 const Recipes = () => {
 
@@ -37,7 +40,7 @@ const Recipes = () => {
             <p className='bg-white min-[425px]:text-[2rem] max-[425px]:text-[1.9rem] font-bitter font-black tracking-widest text-[#15003F]/[.9]' style={{ position: 'absolute', top: '10px', left: '10px' }}>LEVAIN COOKIES</p>
           </AccordionTrigger>
           <AccordionContent className="w-full">
-            <Tiramisu />
+            <Levain />
           </AccordionContent>
         </AccordionItem>
         <AccordionItem value="item-3">
@@ -45,7 +48,7 @@ const Recipes = () => {
             <p className='bg-white text-[2rem] font-bitter font-black tracking-widest text-[#15003F]/[.9]' style={{ position: 'absolute', top: '10px', left: '10px' }}>SAN SEBASTIAN <br/>CHEESECAKE</p>
           </AccordionTrigger>
           <AccordionContent className="w-full">
-            <Tiramisu />
+            <Sebastian />
           </AccordionContent>
         </AccordionItem>
         <AccordionItem value="item-4">
@@ -53,7 +56,7 @@ const Recipes = () => {
             <p className='bg-white text-[2rem] font-bitter font-black tracking-widest text-[#15003F]/[.9]' style={{ position: 'absolute', top: '10px', left: '10px' }}>FUDGE BROWNIE</p>
           </AccordionTrigger>
           <AccordionContent className="w-full">
-            <Tiramisu />
+            <Brownie />
           </AccordionContent>
         </AccordionItem>
       </Accordion>

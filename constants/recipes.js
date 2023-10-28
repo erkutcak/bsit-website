@@ -2,7 +2,7 @@ const recipes = [
     {
         name: 'Tiramisu',
         background: 'recipes/tiramisu1.png',
-        textcon: 'When we think of dessert, the first thing that comes up to our mind is Tiramisu, which can take us to Italy with one spoon, and I think everyone who loves dessert should have a delicious Tiramisu recipe they keep in their recipe book. Luckily, after trying many recipes, I found one of the best. Follow along my instructions step-by-step and make one of the best Tiramisu you have ever made! \n Depending on your preference, you can make this recipe in a large bowl or in individual portions. I always recommend individual servings, as they are easier to store, and you can keep them longer without spoiling. We can start if your ingredients are ready, there is nothing holding you back from making a great Tiramisu!',
+        textcon: 'When we think of dessert, the first thing that comes up to our mind is Tiramisu, which can take us to Italy with one spoon, and I think everyone who loves dessert should have a delicious Tiramisu recipe they keep in their recipe book. Luckily, after trying many recipes, I found one of the best. Follow along my instructions step-by-step and make one of the best Tiramisu you have ever made! Depending on your preference, you can make this recipe in a large bowl or in individual portions. I always recommend individual servings, as they are easier to store, and you can keep them longer without spoiling. We can start if your ingredients are ready, there is nothing holding you back from making a great Tiramisu!',
         ingredients: [
             {
                 category: 'Ladyfingers',
@@ -70,7 +70,7 @@ const recipes = [
                 ],
             },
             {
-                category: 'Final',
+                category: 'Plating!',
                 directions: [
                     'First, dip the ladyfingers in the coffee mixture and arrange them on a serving plate. Spread the sabayon sauce on the ladyfingers.',
                     'Repeat this step a few times, then, put the plate in the refrigerator for at least 4 hours.',
@@ -159,3 +159,5 @@ const recipes = [
         ],
     }
 ]
+
+export { recipes }
