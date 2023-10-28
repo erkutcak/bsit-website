@@ -1,5 +1,6 @@
 const recipes = [
     {
+        id: 1,
         name: 'Tiramisu',
         background: 'recipes/tiramisu1.png',
         textcon: 'When we think of dessert, the first thing that comes up to our mind is Tiramisu, which can take us to Italy with one spoon, and I think everyone who loves dessert should have a delicious Tiramisu recipe they keep in their recipe book. Luckily, after trying many recipes, I found one of the best. Follow along my instructions step-by-step and make one of the best Tiramisu you have ever made! Depending on your preference, you can make this recipe in a large bowl or in individual portions. I always recommend individual servings, as they are easier to store, and you can keep them longer without spoiling. We can start if your ingredients are ready, there is nothing holding you back from making a great Tiramisu!',
@@ -81,6 +82,7 @@ const recipes = [
         ],
     },
     {
+        id: 2,
         name: 'Levain Cookie (8 massive cookies)',
         background: '',
         textcon: 'I\'ve finally reached the famous New York bakery Levain\'s cookies recipe that almost everyone who visits New York loves after long trials.\n If you haven\'t tried it before, forget all the cookies you know and savor the crispy, chewy, soft, and melty goodness of Levain cookie.',
@@ -110,6 +112,7 @@ const recipes = [
         ],
     },
     {
+        id: 3,
         name: 'San Sebastian Cheesecake',
         background: '',
         textcon: 'I\'ve tried many times to make the best San Sebastian recipe, and among the ones I tried, I found the one that comes closest to the original. Here is one of my favorite desserts, the delightful taste of San Sebastian Cheesecake from the wonderful region of San Sebastian in Spain!',
@@ -136,6 +139,7 @@ const recipes = [
         ],
     },
     {
+        id: 4,
         name: 'Fudge Brownie',
         background: '',
         textcon: 'As someone who loves baking, I should admit that in my early trials, the most challenging dessert was brownie for me. I prefer my brownies to be fudgy, but not intense. I struggled a lot to find a recipe that strikes the perfect balance and finally, I found it. If you\'re looking for a brownie that is not too heavy, and has that fudgy texture, you must definitely give this one a try.',
