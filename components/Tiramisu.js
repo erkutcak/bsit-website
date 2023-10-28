@@ -29,11 +29,12 @@ const Tiramisu = () => {
     <div className='bg-white/[.8] mx-4 my-4 px-5 py-[4px] rounded-lg'>
       <h6>{recipes[0].textcon}</h6>
       <div>
-        <h4 className='font-bitter font-black text-xl mt-4 mb-2 underline decoration-double'>
-        <svg class="w-6 h-6 text-gray-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 18 20">
-          <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M6 15a2 2 0 1 0 0 4 2 2 0 0 0 0-4Zm0 0h8m-8 0-1-4m9 4a2 2 0 1 0 0 4 2 2 0 0 0 0-4Zm-9-4h10l2-7H3m2 7L3 4m0 0-.792-3H1"/>
-        </svg>
-        Ingredients</h4>
+        <div className='flex flex-row items-center mt-4 mb-2 gap-2'>
+          <svg className="w-6 h-6 text-gray-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 18 20">
+            <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.5" d="M6 15a2 2 0 1 0 0 4 2 2 0 0 0 0-4Zm0 0h8m-8 0-1-4m9 4a2 2 0 1 0 0 4 2 2 0 0 0 0-4Zm-9-4h10l2-7H3m2 7L3 4m0 0-.792-3H1"/>
+          </svg>
+          <h4 className='font-bitter font-black text-xl underline decoration-double'>Ingredients</h4>
+        </div>
         {displayIngredients}
       </div>
       <div>
