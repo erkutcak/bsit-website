@@ -18,20 +18,22 @@ const Blog = () => {
 
   const displayCards = blogs.map((blog) => (
     <div className='bg-white/[.8] mx-4 my-4 rounded-lg w-full drop-shadow-xl cursor-pointer md:w-[200px] max-[375px]:w-[75%]' key={blog.id}>
-          <img src={`/blogs/${blog.image}`} className='h-[150px] w-full rounded-lg' alt='blog-image'/>
+      <Link href={`/blog/blog${blog.id}`}>
+          <img src={`/blogs/${blog.image}`} className='h-[150px] w-full rounded-lg' alt='blog-image' />
           <div className='p-2'>
             <h1 className='font-bitter font-black mt-2 mb-2'>{blog.title}</h1>
             <h4 className='italic text-sm'>{blog.date}</h4>
             <p className='text-sm mt-2'>{blog.category}</p>
           </div>
+      </Link>
     </div>
-  ))
+  ));
 
   return (
     <div className='flex flex-row items-center justify-center max-[375px]:flex-col'>
       {displayCards}
     </div>
-  )
+  );
 }
 
 export default Blog
