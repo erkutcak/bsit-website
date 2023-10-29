@@ -95,6 +95,14 @@ export default function Navbar () {
                             Blog
                         </button>
                         </Link>
+                        <Link href="/contact-us" role="menuitem">
+                        <button
+                            className={`${isActive === 'contact-us' ? 'bg-gray-100 text-gray-700' : 'text-white'} block px-4 py-2 text-md font-bitter hover:bg-gray-100 hover:text-gray-900 max-lg:text-gray-700`}
+                            onClick={() => toggleActive('contact-us')}
+                        >
+                            Contact Us
+                        </button>
+                        </Link>
                         <Link href="/myprofile" role="menuitem">
                         <button
                             className={`${isActive === 'myprofile' ? 'bg-gray-100 text-gray-700' : 'text-white'} flex items-center px-4 py-2 text-md font-bitter hover:bg-gray-100 hover:text-gray-900 max-lg:text-gray-700`}
