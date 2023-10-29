@@ -100,7 +100,7 @@ export default function Navbar () {
                             className={`${isActive === 'contact-us' ? 'bg-gray-100 text-gray-700' : 'text-white'} block px-4 py-2 text-md font-bitter hover:bg-gray-100 hover:text-gray-900 max-lg:text-gray-700`}
                             onClick={() => toggleActive('contact-us')}
                         >
-                            Contact Us
+                            Contact
                         </button>
                         </Link>
                         <Link href="/myprofile" role="menuitem">
