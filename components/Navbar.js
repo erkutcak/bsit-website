@@ -65,7 +65,7 @@ export default function Navbar () {
                     <div className="py-1 lg:flex lg:flex-row lg:space-x-4 lg:items-center" role="menu" aria-labelledby="options-menu">
                         <Link href="/" role="menuitem">
                         <button
-                            className={`${isActive === 'home' ? 'bg-gray-100 text-gray-700' : 'text-white'} block px-4 py-2 text-md font-bitter hover:bg-gray-100 hover:text-gray-900 max-lg:text-gray-700`}
+                            className={`${isActive === 'home' ? 'bg-gray-100 text-gray-700' : 'text-white'} block px-2 py-2 text-md font-bitter hover:bg-gray-100 hover:text-gray-900 max-lg:text-gray-700`}
                             onClick={() => toggleActive('home')}
                         >
                             Home
@@ -73,7 +73,7 @@ export default function Navbar () {
                         </Link>
                         <Link href="/about" role="menuitem">
                         <button
-                            className={`${isActive === 'about' ? 'bg-gray-100 text-gray-700' : 'text-white'} block px-4 py-2 text-md font-bitter hover:bg-gray-100 hover:text-gray-900 max-lg:text-gray-700`}
+                            className={`${isActive === 'about' ? 'bg-gray-100 text-gray-700' : 'text-white'} block px-2 py-2 text-md font-bitter hover:bg-gray-100 hover:text-gray-900 max-lg:text-gray-700`}
                             onClick={() => toggleActive('about')}
                         >
                             About
@@ -81,7 +81,7 @@ export default function Navbar () {
                         </Link>
                         <Link href="/recipes" role="menuitem">
                         <button
-                            className={`${isActive === 'recipes' ? 'bg-gray-100 text-gray-700' : 'text-white'} block px-4 py-2 text-md font-bitter hover:bg-gray-100 hover:text-gray-900 max-lg:text-gray-700`}
+                            className={`${isActive === 'recipes' ? 'bg-gray-100 text-gray-700' : 'text-white'} block px-2 py-2 text-md font-bitter hover:bg-gray-100 hover:text-gray-900 max-lg:text-gray-700`}
                             onClick={() => toggleActive('recipes')}
                         >
                             Recipes
@@ -89,7 +89,7 @@ export default function Navbar () {
                         </Link>
                         <Link href="/blog" role="menuitem">
                         <button
-                            className={`${isActive === 'blog' ? 'bg-gray-100 text-gray-700' : 'text-white'} block px-4 py-2 text-md font-bitter hover:bg-gray-100 hover:text-gray-900 max-lg:text-gray-700`}
+                            className={`${isActive === 'blog' ? 'bg-gray-100 text-gray-700' : 'text-white'} block px-2 py-2 text-md font-bitter hover:bg-gray-100 hover:text-gray-900 max-lg:text-gray-700`}
                             onClick={() => toggleActive('blog')}
                         >
                             Blog
@@ -97,7 +97,7 @@ export default function Navbar () {
                         </Link>
                         <Link href="/contact-us" role="menuitem">
                         <button
-                            className={`${isActive === 'contact-us' ? 'bg-gray-100 text-gray-700' : 'text-white'} block px-4 py-2 text-md font-bitter hover:bg-gray-100 hover:text-gray-900 max-lg:text-gray-700`}
+                            className={`${isActive === 'contact-us' ? 'bg-gray-100 text-gray-700' : 'text-white'} block px-2 py-2 text-md font-bitter hover:bg-gray-100 hover:text-gray-900 max-lg:text-gray-700`}
                             onClick={() => toggleActive('contact-us')}
                         >
                             Contact
@@ -105,7 +105,7 @@ export default function Navbar () {
                         </Link>
                         <Link href="/myprofile" role="menuitem">
                         <button
-                            className={`${isActive === 'myprofile' ? 'bg-gray-100 text-gray-700' : 'text-white'} flex items-center px-4 py-2 text-md font-bitter hover:bg-gray-100 hover:text-gray-900 max-lg:text-gray-700`}
+                            className={`${isActive === 'myprofile' ? 'bg-gray-100 text-gray-700' : 'text-white'} flex items-center px-2 py-2 text-md font-bitter hover:bg-gray-100 hover:text-gray-900 max-lg:text-gray-700`}
                             onClick={() => toggleActive('myprofile')}
                         >
                             <img src={session?.user?.image} className="h-6 w-6 mr-2 rounded-full" alt="User Image" />
