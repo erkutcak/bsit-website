@@ -1,37 +1,42 @@
 import Image from 'next/image'
 import React from 'react'
 import tiramisu from '../../../public/blogs/tiramisu111.png'
+import tiramisu2 from '../../../public/blogs/tiramisu2.png'
 import Link from 'next/link'
 
 const Blog2 = () => {
   return (
     <div className='flex md:justify-center md:items-center'>
-      <div className='flex flex-col bg-white/[.8] m-4 px-4 py-[4px] rounded-lg md:w-[65%]'>
-        <div className='flex gap-2 mt-2'>
-          <Link href="/blog" className='flex gap-2 mt-2 bg-[#A67DB8] rounded-lg px-2 py-2 drop-shadow-xl'>
+      <div className='flex flex-col bg-white/[.8] m-4 px-4 py-4 rounded-lg md:w-[65%]'>
+        <div className='flex gap-2'>
+          <Link href="/blog" className='flex gap-2 bg-[#A67DB8] rounded-lg px-2 py-2 drop-shadow-xl'>
             <svg className="w-6 h-6 text-gray-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 12 16">
               <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M1 1v14m8.336-.479-6.5-5.774a1 1 0 0 1 0-1.494l6.5-5.774A1 1 0 0 1 11 2.227v11.546a1 1 0 0 1-1.664.748Z"/>
             </svg>
             <p className='font-bitter font-black'>Back</p>
           </Link>
         </div>
-        <Image src={tiramisu} className='rounded-lg mt-2 mb-4 drop-shadow-xl'/>
+        <Image src={tiramisu} className='rounded-lg mt-2 mb-4 drop-shadow-xl' alt='tiramisu picture'/>
         <h1 className='font-bitter font-black text-2xl text-center mb-4'>The delicious coffee-scented story of Tiramisu</h1>
-        <p>Those who have tasted an authentic tiramisu once know all other alternatives pale beside it. In my first blog, I came across its history, not the recipe for my favorite dessert, Tiramisu. I will be publishing the stories, tips, and techniques of desserts along with the recipes to get to know the foods we love to eat better. Today's guest on this blog is Tiramisu!
+        <p>For those who have had the pleasure of savoring an authentic Tiramisu, there's no question that all other desserts fade into the background. In my inaugural blog, I embarked on a journey to unearth the rich history behind one of my all-time favorite sweet delights, Tiramisu. On this platform, we will delve into the captivating stories, trade secrets, and culinary techniques that illuminate the dishes we hold dear. Our very first guest in this culinary exploration is the beloved Tiramisu.
 
-        <br/><br/>Let's see what you will think when you learn about the history of Tiramisu. Let's find out together how delicious Tiramisu came about and how it came to this day.
+        <br/><br/>Join me as we uncover the fascinating history of Tiramisu, and allow your taste buds to time-travel through its delectable journey from inception to modern-day adoration.
 
-        <br/><br/>Tiramisu, one of the most known and loved desserts of Italian cuisine, has various rumors about its popularity. Although it is still not crystal clear when and by whom it was first made, the most told story about it is as follows:
+        <br/><br/>Tiramisu, a crown jewel in Italian gastronomy, shrouds its origins in intriguing tales and legends. While the precise birth of this delectable dessert remains a mystery, one popular story weaves an enticing narrative:
 
-        <br/><br/>In the 17th century, the Duke of Tuscany decided to visit the city of Siena. At that time, dessert was considered a meaningful sign of wealth, which the nobles could eat. Hence, the confectioners in Siena immediately entered the race to prepare a special dessert to honor the duke. It is said that the duke, who is known to enjoy desserts like every noble, consumed sweets that act as an aphrodisiac for his sexual problems. Based on this information, the confectioners prepare a dessert for the duke, which is made with simple ingredients but is said to have a powerful aphrodisiac effect. The duke liked this dessert very much, and the recipe for it began to circulate and suddenly became famous. Thanks to the Duke of Tuscany, who took the recipe for this dessert, which was called "Zuppa del Duca," that is, "Duke's Soup" at that time, and went to Florence, the dessert started to be known more. This dessert, which became more and more famous among the English intellectuals living in Florence at that time, soon became popular in England, and its name began to be called "tiramisu," which means "pull me up" in Italian.
+        <br/><br/>In the 17th century, the Duke of Tuscany embarked on a visit to the enchanting city of Siena. During this era, desserts were more than mere confections; they symbolized the opulence and privilege only nobles could afford. In their eagerness to honor the distinguished duke, the skilled confectioners of Siena set out to create a dessert that would leave a lasting impression. It's said that the duke, like many nobles of his time, sought solace in sweet treats with aphrodisiac properties. Armed with this knowledge, the confectioners crafted a dessert from humble ingredients, believed to possess potent aphrodisiac qualities. The Duke relished this creation, and its recipe soon began to circulate, swiftly gaining notoriety. Thanks to the Duke of Tuscany, who took the recipe for this once-"Zuppa del Duca" (Duke's Soup), to Florence, the dessert began its gradual ascent to fame. It wasn't long before this delectable creation captured the hearts and palates of English intellectuals residing in Florence. The dessert's name evolved into "tiramisu," meaning "pull me up" in Italian, encapsulating its irresistible allure.
 
-        <br/><br/>However, many think that this story is just a legend. According to a recent story, a pastry chef immigrates to Milan and opens a restaurant in Treviso. To make his name known, he decides to prepare a dessert based on the daily flavors of the region, and the chef begins experimenting with combining coffee, creamy mascarpone, egg, and lady fingers biscuits. At the end of his trials of about two years, he finally reaches the perfect taste he desires. He says he named it "tiramisu," which means "pull me up," inspired by the espresso he puts in it. After this special dessert he prepared attracted attention, famous chefs of that period came to visit his place; and started to prepare their versions of Tiramisu with minor changes.
+        <br/><br/>Yet, many view this tale as a fable, with the truth shrouded in the mists of history. In a more recent account, a visionary pastry chef immigrates to Milan and opens an eatery in Treviso. In a quest to establish his name, he embarks on an epicurean adventure, blending the daily flavors of the region into a dessert. The chef's culinary journey spans two years, exploring the symphony of coffee, velvety mascarpone, eggs, and ladyfinger biscuits. Finally, he arrives at the perfect taste he's been seeking. Inspired by the espresso infusion, he christens his creation "tiramisu," an ode to the very essence that propels this dessert to lift spirits. The masterstroke of this chef catches the attention of culinary luminaries of the time, who flock to his restaurant and begin crafting their versions of Tiramisu, each with its own unique twist.
 
-        <br/><br/>Tiramisu is inevitably one of our favorite desserts, although we don't know which story is true. These stories and the meaning of the verb inspired me for the plating of my Tiramisu. An idea of tiramisu presentation can be like this; imagine serving your Tiramisu in portions in a plastic baking hoop and place it on a serving plate. It will have "pull me up" written on the plastic hoop, and when you pull it up, the sabayon sauce and cocoa will cover the entire cake. Thus, you will have to actually "pull it up" to start eating the Tiramisu, which will "pull you up" after you eat it.
+        <br/><br/>Whether the tales are steeped in history or woven from whimsy, these narratives have kindled my imagination for a Tiramisu presentation that captures the essence of "pull me up." Picture serving Tiramisu in individual portions, nestled within a plastic baking hoop, set gracefully on a serving platter. Emblazoned upon the plastic hoop are the words "pull me up," an invitation to embark on an epicurean journey. As you gently draw it upward, the sabayon sauce and cocoa cascade, draping the entire cake, beckoning you to partake in its delights. Just as the name suggests, you must "pull it up" to savor the Tiramisu that promises to "pull you up" into a world of pure delight.
 
-        <br/><br/>Inspired by this, are you ready for my delicious tiramisu recipe that will take you to Italy with fresh lady finger cookies and delicious sabayon sauce? I am very excited to share a recipe very close to the taste you will eat in Italy with its detailed tricks and techniques you won't find anywhere else. If you want to bake the classic Italian dessert tiramisu for your loved ones, you can find the recipe here soon. 
+        <br/><br/>Feeling inspired yet? Stay tuned for my delectable Tiramisu recipe that's designed to transport you to the heart of Italy. With intricate tips and exclusive techniques that you won't find elsewhere, this recipe promises an experience close to what you'd encounter in the charming streets of Italy. If you're eager to whip up a classic Italian Tiramisu for your loved ones, you'll find the recipe right here soon.
         
-        <br/><br/>Make sure to have homemade fresh Italian pasta, then enjoy the Tiramisu and let it "pull you up"! </p>
+        <br/><br/>Before you embark on your Tiramisu-making adventure, be sure to have some homemade, fresh Italian pasta on hand, and after indulging in the Tiramisu, let it indeed "pull you up" to new heights of culinary delight! 
+        </p>
+        <div className='flex flex-row items-center justify-center mt-4'>
+          <Image src={tiramisu2} className='rounded-lg mt-2 mb-4 drop-shadow-xl max-h-[250px] max-w-[200px] ' alt='tiramisu picture'/>
+        </div>
       </div>
     </div>
   )

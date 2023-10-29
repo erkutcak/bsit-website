@@ -1,7 +1,7 @@
 const blogs = [
     {
         id: 1,
-        title: 'Unbelievable, ChatGPT can help you create recipes!',
+        title: 'Unlocking Culinary Magic: Crafting Recipes with ChatGPT',
         image: 'chatgpt3.png',
         category: 'Blog',
         date: 'October 2023'
